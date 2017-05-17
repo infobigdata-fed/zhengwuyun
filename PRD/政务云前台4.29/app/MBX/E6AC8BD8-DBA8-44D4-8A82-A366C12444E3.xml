@@ -1,0 +1,82 @@
+﻿<mockup version="4.5" minAllowVersion="4.5" ID="E6AC8BD8-DBA8-44D4-8A82-A366C12444E3" platform="MtCustom" defaultW="1920" defaultH="5000" measureW="1920" measureH="5000" mobileScreenScale="0">
+  <controls controlCount="3">
+    <control controlID="1A41FC7F-1CE1-4241-ABF0-7037D7799370" controlTypeID="HotSpot" isShow="True" caption="%E7%83%AD%E5%8C%BA" x="1447" y="497" w="473" h="60" measuredW="48" measuredH="48" zOrder="0" locked="False" sizeLocked="False">
+      <controlProperties>
+        <basic color="4294967295" borderVisible="True" borderColor="4284900966" isAutoSize="False" status="MsEnabled" opacity="1" isCommentCom="False" canMove="True" alias="" rotation="0"/>
+        <states/>
+        <verticalScrollbarShow>False</verticalScrollbarShow>
+        <verticalScrollbarProgress>0</verticalScrollbarProgress>
+        <horizontalScrollbarShow>False</horizontalScrollbarShow>
+        <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+        <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+          <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="2">
+            <area shape="0" alt="" ID="{172A05A3-CC69-4DA0-A745-8A46F2A50283}" coords="(0,0,473,60)"/>
+          </link>
+        </links>
+        <interactiveData>
+          <entry title="">
+            <area shape="0" alt="" ID="{8CC74916-4F52-4EFC-A896-FCA0754FDF7B}" coords="(0,0,473,60)"/>
+            <events title=""/>
+          </entry>
+        </interactiveData>
+      </controlProperties>
+    </control>
+    <control controlID="5294E59A-CB95-4244-A7FB-34D837D93F0E" controlTypeID="HotSpot" isShow="True" caption="%E7%83%AD%E5%8C%BA" x="104" y="24" w="403" h="60" measuredW="48" measuredH="48" zOrder="1" locked="False" sizeLocked="False">
+      <controlProperties>
+        <basic color="4294967295" borderVisible="True" borderColor="4284900966" isAutoSize="False" status="MsEnabled" opacity="1" isCommentCom="False" canMove="True" alias="" rotation="0"/>
+        <states/>
+        <verticalScrollbarShow>False</verticalScrollbarShow>
+        <verticalScrollbarProgress>0</verticalScrollbarProgress>
+        <horizontalScrollbarShow>False</horizontalScrollbarShow>
+        <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+        <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+          <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="%E9%A6%96%E9%A1%B5">
+            <area shape="0" alt="" ID="{1C514825-2CBC-408B-8133-011755CC762C}" coords="(0,0,403,60)"/>
+          </link>
+        </links>
+        <interactiveData>
+          <entry title="">
+            <area shape="0" alt="" ID="{7EC98A8B-C745-49C7-8C3D-3F588C941EA3}" coords="(0,0,403,60)"/>
+            <events title=""/>
+          </entry>
+        </interactiveData>
+      </controlProperties>
+    </control>
+    <control controlID="6DC0007A-AB2E-41FB-AD7E-E9AFAFDE5031" controlTypeID="Image" isShow="True" caption="%E5%9B%BE%E7%89%87" x="-80" y="0" w="2000" h="4520" measuredW="150" measuredH="150" zOrder="2" locked="False" sizeLocked="False">
+      <controlProperties>
+        <basic color="4294967295" borderVisible="False" borderColor="4284900966" isAutoSize="False" status="MsEnabled" opacity="1" isCommentCom="False" canMove="True" alias="" rotation="0"/>
+        <states/>
+        <verticalScrollbarShow>False</verticalScrollbarShow>
+        <verticalScrollbarProgress>0</verticalScrollbarProgress>
+        <horizontalScrollbarShow>False</horizontalScrollbarShow>
+        <horizontalScrollbarProgress>0</horizontalScrollbarProgress>
+        <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+          <link targetPageID="" linkType="ltPageLink" isApplyIncludePage="False" title="%E9%93%BE%E6%8E%A5">
+            <area shape="0" alt="" ID="{58262AD3-5CD4-4907-B1BD-C8CCCC3C1662}" coords="(0,0,2000,4520)"/>
+          </link>
+        </links>
+        <interactiveData>
+          <entry title="">
+            <area shape="0" alt="" ID="{7EB60E1A-19E1-4BEC-BF52-83B3EFC8F115}" coords="(0,0,2000,4520)"/>
+            <events title=""/>
+          </entry>
+        </interactiveData>
+        <rotationAngle>TdZero</rotationAngle>
+        <clipShapeType>SbRectangle</clipShapeType>
+        <radius>0</radius>
+        <radiusIsPercent>False</radiusIsPercent>
+        <URL>5D224A97DE91343ED0A4F4DC3BC3B8C4.png</URL>
+        <FlipHorizontal>False</FlipHorizontal>
+        <FlipVertical>False</FlipVertical>
+        <fitMode>2</fitMode>
+        <showText>True</showText>
+      </controlProperties>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

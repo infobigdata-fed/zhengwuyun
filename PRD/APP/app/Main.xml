@@ -1,0 +1,65 @@
+﻿<project version="2.2" name="app" ID="07FBE9BA-FFAD-4832-A18E-04EEAC639EDE">
+  <params>
+    <pageParam version="4.5" minAllowVersion="4.5"/>
+    <projectParam version="2.2" minAllowVersion="2.2" platform="MtMobile" orientation="MoPortrait" mobileScreenScale="1.77777779102325" mobileType="mmtIOS" pageSize="(375,667)" backgroundColor="4294967295" fontSize="0" fontFamily=""/>
+    <previewParam version="1.0"/>
+    <colorParam version="1.0"/>
+  </params>
+  <modules>
+    <page name="欢迎页面" ID="C4F87D81-A331-4004-A88E-4C108FFDE7E1" expanded="False" code="bo6cDFUVhS" thumbCode="bo6cDFUVhS" status="psWhite">
+      <images>
+        <image key="1F8E40F2D1FA95660864837E9B18E155.png"/>
+      </images>
+    </page>
+    <page name="首页" ID="06D7EFAE-9A9A-4861-B22D-7DB0853888F5" expanded="True" code="KZYQzsaelt" thumbCode="KZYQzsaelt" status="psWhite">
+      <images>
+        <image key="02A016C3ED12E315FC7BA597F8A00DD3.png"/>
+        <image key="1A1FE89A06F1C3290F8C04FD64CEF6D0.png"/>
+        <image key="D750B6ECC37D268E93023886DEE71AC8.png"/>
+        <image key="261037A10DECD4035FE195C8D04DC695.png"/>
+        <image key="E9AA8E1536D558B7A2FCF3C92CC2DB34.png"/>
+      </images>
+    </page>
+    <page name="业务新闻列表页" ID="9F0DA5D8-8068-4687-9BE0-30F5C287F1ED" expanded="True" code="1mOibWQy6w" thumbCode="1mOibWQy6w" isLastOpen="True" status="psWhite">
+      <images>
+        <image key="1A1FE89A06F1C3290F8C04FD64CEF6D0.png"/>
+        <image key="D750B6ECC37D268E93023886DEE71AC8.png"/>
+        <image key="261037A10DECD4035FE195C8D04DC695.png"/>
+        <image key="E9AA8E1536D558B7A2FCF3C92CC2DB34.png"/>
+      </images>
+      <page name="业务新闻列详情页" ID="5A202556-C5A1-48FE-9E4C-2503679925F4" expanded="True" code="MkxfVfiirs" thumbCode="MkxfVfiirs" status="psWhite"/>
+    </page>
+    <page name="市场主体页" ID="63F95E56-1560-4B0C-8BE4-DEFC0132320B" expanded="True" code="4BlUwZijgZ" thumbCode="4BlUwZijgZ" status="psWhite">
+      <images>
+        <image key="17CB2EAA52CD53CAA91E184E82959515.png"/>
+      </images>
+    </page>
+    <page name="市长信箱" ID="78DA46E7-654B-4505-AA38-571E3B57B473" expanded="True" code="DZS4u2aLNh" thumbCode="DZS4u2aLNh" status="psWhite">
+      <images>
+        <image key="1A1FE89A06F1C3290F8C04FD64CEF6D0.png"/>
+        <image key="D750B6ECC37D268E93023886DEE71AC8.png"/>
+        <image key="261037A10DECD4035FE195C8D04DC695.png"/>
+        <image key="E9AA8E1536D558B7A2FCF3C92CC2DB34.png"/>
+      </images>
+      <page name="投诉页" ID="149027B6-BEF9-49AC-BFB6-3DBDEBD6330E" expanded="True" code="y79voOYi8A" thumbCode="y79voOYi8A" status="psWhite"/>
+      <page name="投诉查询页" ID="DC1F2C26-1514-4B03-8AC4-2FF74C23F331" expanded="True" code="HKfNtwL7Jo" thumbCode="HKfNtwL7Jo" status="psWhite">
+        <images>
+          <image key="1A1FE89A06F1C3290F8C04FD64CEF6D0.png"/>
+          <image key="D750B6ECC37D268E93023886DEE71AC8.png"/>
+          <image key="261037A10DECD4035FE195C8D04DC695.png"/>
+          <image key="E9AA8E1536D558B7A2FCF3C92CC2DB34.png"/>
+        </images>
+      </page>
+    </page>
+  </modules>
+  <masters/>
+  <images>
+    <image key="1F8E40F2D1FA95660864837E9B18E155.png"/>
+    <image key="261037A10DECD4035FE195C8D04DC695.png"/>
+    <image key="17CB2EAA52CD53CAA91E184E82959515.png"/>
+    <image key="E9AA8E1536D558B7A2FCF3C92CC2DB34.png"/>
+    <image key="1A1FE89A06F1C3290F8C04FD64CEF6D0.png"/>
+    <image key="D750B6ECC37D268E93023886DEE71AC8.png"/>
+    <image key="02A016C3ED12E315FC7BA597F8A00DD3.png"/>
+  </images>
+</project>

@@ -1,0 +1,582 @@
+﻿<project version="2.2" name="政务云前台4.24" ID="0FF287F0-0C83-4931-B466-245E97AB2CB2">
+  <params>
+    <pageParam version="4.5" minAllowVersion="4.5"/>
+    <projectParam version="2.2" minAllowVersion="2.2" platform="MtCustom" pageSize="(1920,5000)" backgroundColor="4294967295" fontSize="0" fontFamily=""/>
+    <previewParam version="1.0"/>
+    <colorParam version="1.0"/>
+  </params>
+  <modules>
+    <page name="首页" ID="09B90EDB-4714-4DB3-A43C-4BD8EB99FCF8" expanded="True" code="ekjS9RY14i" thumbCode="ZYVUZt4QLl" status="psWhite">
+      <images>
+        <image key="963F6D018884ED09DB1CF4FCCAB83EE3.png"/>
+        <image key="163201074869BF277D39221294B32B1A.png"/>
+        <image key="72658D512146FCEC7A7055546381E308.png"/>
+        <image key="F7093E81FA866A44B21E6AB18604568C.png"/>
+        <image key="B73A0C9B3A1A0AFBF392A067DA59784F.png"/>
+      </images>
+      <page name="武汉详情页" ID="44922232-E949-4EED-8B72-E4BCD35B9BA5" expanded="True" code="QfStbmueqt" thumbCode="QfStbmueqt" status="psWhite">
+        <images>
+          <image key="595C5E0D21C237D158A8D8CA3ACAE61C.png"/>
+          <image key="1C277EC43D0F1E4EC1B7DFEBF5DE5194.png"/>
+        </images>
+      </page>
+      <page name="合肥" ID="52D31ECA-8E8A-4C05-B6B8-D46A84745C50" expanded="True" code="IvnCOad2Eq" thumbCode="IvnCOad2Eq" status="psWhite">
+        <images>
+          <image key="163201074869BF277D39221294B32B1A.png"/>
+          <image key="226E5F5446DB08600403CD74A0ED1658.png"/>
+        </images>
+      </page>
+      <page name="长沙" ID="4179FE2F-20C9-4534-8DA8-E2A0BFD6B86D" expanded="True" code="Hgb8atgJdk" thumbCode="EehDbx1qAA" status="psWhite">
+        <images>
+          <image key="51A0725A15FCCCBD6376C261955F569C.png"/>
+          <image key="163201074869BF277D39221294B32B1A.png"/>
+        </images>
+      </page>
+      <page name="南昌" ID="43A86092-19AD-4444-8428-7FABD8DEE2B7" expanded="True" code="sORiV2ebzl" thumbCode="pwUhjxaGIn" status="psWhite">
+        <images>
+          <image key="163201074869BF277D39221294B32B1A.png"/>
+          <image key="50E676EA6AE3B68A4AB40F919F3AAE55.png"/>
+        </images>
+      </page>
+    </page>
+    <page name="搜索结果页" ID="5C22F7EE-8F10-44CB-98D7-2038FF792184" expanded="False" code="Yr2rNl2342" thumbCode="Yr2rNl2342" status="psWhite">
+      <images>
+        <image key="0EB35C5E5FC04ACFFFAFB1F90DB4A12A.png"/>
+        <image key="E25DCBBCD3B163BC25E700DA2023CDEB.png"/>
+        <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+      </images>
+    </page>
+    <page name="信息门户" ID="B2582CE3-987D-478A-A722-82F8E6158733" expanded="True" code="8lOlGKd5JB" thumbCode="IoRqADdb5J" status="psWhite">
+      <images>
+        <image key="E25DCBBCD3B163BC25E700DA2023CDEB.png"/>
+        <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+      </images>
+      <page name="政务信息、通知公告展示" ID="4818F4DF-33F5-416C-9DF8-95C27A80E2E9" expanded="True" code="lBlbOej3gF" thumbCode="lBlbOej3gF" status="psWhite">
+        <images>
+          <image key="E25DCBBCD3B163BC25E700DA2023CDEB.png"/>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+      </page>
+      <page name="政务信息、通知公告管理" ID="542D243F-A6E2-4575-B1B1-AC2802C6C0DE" expanded="True" code="fYvh7MIksq" thumbCode="fYvh7MIksq" status="psWhite">
+        <images>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          <image key="6820897D99CF476AD1DC00579EC979EF.png"/>
+          <image key="D08755C22A9B40B6BF65036DEC8B44B4.svg"/>
+          <image key="E25DCBBCD3B163BC25E700DA2023CDEB.png"/>
+          <image key="26AB19DA18E064FE00F6615186F47983.png"/>
+        </images>
+      </page>
+      <page name="业务信息展示" ID="C66F1774-16A7-480A-9B3A-23CF85F1BA54" expanded="True" code="DU1SfldlA2" thumbCode="DU1SfldlA2" status="psWhite">
+        <images>
+          <image key="E25DCBBCD3B163BC25E700DA2023CDEB.png"/>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+      </page>
+      <page name="业务信息管理" ID="0EBE0474-1D1D-42B0-AE5C-4DB68929E39F" expanded="True" code="gc1BRMsxPa" thumbCode="gc1BRMsxPa" status="psWhite">
+        <images>
+          <image key="6820897D99CF476AD1DC00579EC979EF.png"/>
+          <image key="E25DCBBCD3B163BC25E700DA2023CDEB.png"/>
+          <image key="26AB19DA18E064FE00F6615186F47983.png"/>
+          <image key="D08755C22A9B40B6BF65036DEC8B44B4.svg"/>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+      </page>
+      <page name="通知、政务信息、业务信息列表详情页" ID="DDA93966-01CA-4863-9046-F9D1403E0668" expanded="False" code="tELGUSkd7c" thumbCode="tELGUSkd7c" status="psWhite">
+        <images>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+      </page>
+      <page name="名标名录查询" ID="D3D59683-6A72-4A7A-8236-93120589815D" expanded="True" code="xUfFWe4Xcw" thumbCode="T8Ar75flnC" status="psWhite">
+        <images>
+          <image key="7E248E452DA5AB7AE8F52344D7859A5B.png"/>
+          <image key="0EB35C5E5FC04ACFFFAFB1F90DB4A12A.png"/>
+          <image key="09891392039943BF6B87673682994D0F.png"/>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+        <page name="名标名录查询结果" ID="FD1FAF4E-3F35-4975-98EC-41FEFCC01207" expanded="True" code="XmxCZsMFZp" thumbCode="XmxCZsMFZp" status="psWhite">
+          <images>
+            <image key="0EB35C5E5FC04ACFFFAFB1F90DB4A12A.png"/>
+            <image key="8E3B2821712E0404CD45BFC0911756BE.png"/>
+            <image key="E25DCBBCD3B163BC25E700DA2023CDEB.png"/>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="名标名录详情页" ID="26ED0CA1-EA67-4313-8EBA-D95E5DDE857D" expanded="False" code="g1ywdOXloY" thumbCode="8zc1Z88ysw" status="psWhite">
+          <images>
+            <image key="8E3B2821712E0404CD45BFC0911756BE.png"/>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+      </page>
+      <page name="名标名录展示" ID="3FA36023-FF48-4055-B2AB-61985D978F75" expanded="True" code="SWQab8mVAC" thumbCode="SWQab8mVAC" status="psWhite">
+        <images>
+          <image key="0EB35C5E5FC04ACFFFAFB1F90DB4A12A.png"/>
+          <image key="C7F349D805ECDE338A877702E78855E2.png"/>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+      </page>
+      <page name="名标名录管理" ID="DEB0C034-0138-4743-8056-D75DA775976F" expanded="True" code="XpNcKWFk7a" thumbCode="XpNcKWFk7a" status="psWhite">
+        <images>
+          <image key="6820897D99CF476AD1DC00579EC979EF.png"/>
+          <image key="E25DCBBCD3B163BC25E700DA2023CDEB.png"/>
+          <image key="5FDA63ABD3566D33A380462552B2DA4D.png"/>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+        <page name="拾取坐标" ID="592A5171-41D1-4709-BECA-BEA96CA781A3" expanded="True" code="7HB7znLrFm" thumbCode="7HB7znLrFm" status="psWhite">
+          <images>
+            <image key="BF2DCD3912D20000368455B334ACCF00.png"/>
+          </images>
+        </page>
+      </page>
+      <page name="名优企业库展示" ID="BD55491A-BF0F-4F1A-89B2-FE2E2A5F1A66" expanded="True" code="ge5iPmXJwt" thumbCode="ge5iPmXJwt" status="psWhite">
+        <images>
+          <image key="09891392039943BF6B87673682994D0F.png"/>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+      </page>
+      <page name="名优企业库管理" ID="49192BFA-A226-4D44-9FE0-70E6162245FC" expanded="True" code="e2TXYMIH3g" thumbCode="e2TXYMIH3g" status="psWhite">
+        <images>
+          <image key="6820897D99CF476AD1DC00579EC979EF.png"/>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+      </page>
+      <page name="市场监管查询" ID="CC222CB6-7C61-400D-B12E-C234FB9BF35C" expanded="True" code="Es1CyPWKyN" thumbCode="Es1CyPWKyN" status="psWhite">
+        <images>
+          <image key="0EB35C5E5FC04ACFFFAFB1F90DB4A12A.png"/>
+          <image key="299E7C96073DDDE683B07ECD9E2F8733.png"/>
+          <image key="09891392039943BF6B87673682994D0F.png"/>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+        <page name="市场监管查询结果" ID="17E46F02-997A-4515-89AA-74D37EBF9BBB" expanded="True" code="8IGymMHifD" thumbCode="8IGymMHifD" status="psWhite">
+          <images>
+            <image key="0EB35C5E5FC04ACFFFAFB1F90DB4A12A.png"/>
+            <image key="E25DCBBCD3B163BC25E700DA2023CDEB.png"/>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+          <page name="企业详细页-基本信息" ID="29792E44-7EAF-450B-AACF-889979CA1F68" expanded="True" code="D4By2oGLWg" thumbCode="D4By2oGLWg" status="psWhite">
+            <images>
+              <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+              <image key="E509926F3D46EA14F7857261182A4BE3.png"/>
+              <image key="4B431F253969C840387BC2B99F39A8A3.png"/>
+            </images>
+          </page>
+          <page name="企业详细页-抽查检查" ID="62D64D7C-F546-443D-ADA8-A178F4B5FEB7" expanded="True" code="3n7EPMd7CE" thumbCode="3n7EPMd7CE" status="psWhite">
+            <images>
+              <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+            </images>
+          </page>
+        </page>
+      </page>
+    </page>
+    <page name="个人中心页" ID="EFD49A38-8F28-4FEA-B808-E1BB2CAB0996" expanded="True" code="SrUXaEqoqq" thumbCode="" status="psWhite">
+      <page name="我的消息页-个人消息-收件箱" ID="51C1B953-A359-46DB-9917-9CAB9A6067F4" expanded="True" code="Ay4G3YwKtm" thumbCode="Ay4G3YwKtm" status="psWhite">
+        <images>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+      </page>
+      <page name="我的消息页-个人消息-发件箱" ID="ECEB6FC6-8AC3-4DD1-A370-771387B66061" expanded="False" code="762st4hjnA" thumbCode="Bs6nCIhrUg" status="psWhite">
+        <images>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+      </page>
+      <page name="我的消息页-个人消息-草稿箱" ID="3633E17A-8500-4AA0-8F18-2908111FBCD6" expanded="False" code="GV3H6WGVgy" thumbCode="GV3H6WGVgy" status="psWhite">
+        <images>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+      </page>
+      <page name="我的消息页-工作提醒-收件箱" ID="241C60FC-D10D-4695-8B58-D1AC935B0C52" expanded="True" code="2qQEjV419D" thumbCode="2qQEjV419D" status="psWhite">
+        <images>
+          <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+      </page>
+      <page name="我的消息页-工作提醒-发件箱" ID="45AF9273-B222-44A9-960F-A646904BF1D5" expanded="True" code="VXkLVtftXA" thumbCode="VXkLVtftXA" status="psWhite">
+        <images>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+      </page>
+      <page name="我的消息页-工作提醒-草稿箱" ID="50A6357B-2246-425D-905B-831CE40E1046" expanded="True" code="V2eVaszC7m" thumbCode="V2eVaszC7m" status="psWhite">
+        <images>
+          <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+      </page>
+      <page name="我的消息页-系统消息" ID="4829AA6B-C295-4F5C-9605-57347E48F680" expanded="False" code="cmvoPwTVqr" thumbCode="cmvoPwTVqr" status="psWhite">
+        <images>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+      </page>
+      <page name="通讯录列表页" ID="D4B50C7A-75AE-43E3-9946-452DA4EC8837" expanded="True" code="kClT5Xx2lA" thumbCode="kClT5Xx2lA" status="psWhite">
+        <images>
+          <image key="E25DCBBCD3B163BC25E700DA2023CDEB.png"/>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+        <page name="通讯录详情页" ID="BD4EBDE2-0BB3-4373-AEE2-34F3207F3E8B" expanded="True" code="hoYieJFmEQ" thumbCode="hoYieJFmEQ" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+      </page>
+    </page>
+    <page name="业务协同" ID="83FC3D64-DBE7-4728-86AB-32D5685DF7CD" expanded="True" code="iLwJA2cJY2" thumbCode="kO1V6YCvSl" status="psWhite">
+      <page name="12315消费维权协作" ID="E476AC26-9FA9-4D21-9E5A-7C3F8C02A191" expanded="True" code="UMstGehiBc" thumbCode="8whk7mVGC4" status="psWhite">
+        <page name="协助信息录入-投诉" ID="640FCFFF-CE84-41AE-8E16-1FE3B3C457D7" expanded="True" code="7ITDmuR74f" thumbCode="7ITDmuR74f" status="psWhite">
+          <images>
+            <image key="09891392039943BF6B87673682994D0F.png"/>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息录入-举报" ID="682661B9-6760-43A1-A53A-5E8DB58D01A6" expanded="True" code="c1AGA3MfJN" thumbCode="c1AGA3MfJN" status="psWhite">
+          <images>
+            <image key="09891392039943BF6B87673682994D0F.png"/>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息列表-我来协助" ID="166BB5FC-30B1-4B2D-B9CE-FAD6C6523367" expanded="True" code="WgDz37kCrt" thumbCode="WgDz37kCrt" status="psWhite">
+          <images>
+            <image key="09891392039943BF6B87673682994D0F.png"/>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息列表-需要协助" ID="3A763652-F859-4FC7-8C30-E7D80A9B7C4D" expanded="True" code="RF7sBdAptz" thumbCode="RF7sBdAptz" status="psWhite">
+          <images>
+            <image key="09891392039943BF6B87673682994D0F.png"/>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-投诉-已退回" ID="260E4B13-5871-4BB6-9EBF-99B766FEAE31" expanded="True" code="c1TGPsrm19" thumbCode="c1TGPsrm19" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-投诉-已处理" ID="2038D36F-332B-48DC-87A3-1176489FC5CE" expanded="True" code="lkthbfIOPX" thumbCode="lkthbfIOPX" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-投诉-待处理" ID="C4BB48C2-5A46-413A-B10F-1A9AD9B266F6" expanded="True" code="7QA6ZNSgDD" thumbCode="7QA6ZNSgDD" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-投诉-未接收" ID="F5F32B25-CC34-4010-831D-5A56FC0D31C0" expanded="False" code="wRkciP7hD1" thumbCode="wRkciP7hD1" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-投诉-等待反馈" ID="614761A2-709A-4AC4-B658-36D37BAF8864" expanded="True" code="3tmKmqBulb" thumbCode="3tmKmqBulb" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-举报-已退回" ID="85E3EE51-183C-4F0C-AC38-F9E4C38B23B6" expanded="True" code="hzr45CNBBi" thumbCode="hzr45CNBBi" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-举报-已处理" ID="93BC6067-DCE8-412C-9199-F5A0A97F0D4F" expanded="False" code="Lhs7Q1PT9d" thumbCode="Lhs7Q1PT9d" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-举报-待处理" ID="7617CD21-5E9E-4245-94F0-51763CD70A7B" expanded="True" code="TIAKypU7kU" thumbCode="TIAKypU7kU" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-举报-未接收" ID="1CC7D9AC-7AFA-44DA-B968-5D254E84D86A" expanded="True" code="y9yiWC2Q1u" thumbCode="y9yiWC2Q1u" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-举报-等待反馈" ID="56A77631-4767-4EA3-8B40-E0FB0F7AF914" expanded="False" code="72zsDPfsKo" thumbCode="72zsDPfsKo" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+      </page>
+      <page name="注册登记协作" ID="2A06C8C4-1169-4307-9767-2284F21F486F" expanded="True" code="I5tCudD7sg" thumbCode="" status="psWhite">
+        <page name="企业登记信息查询" ID="7D3791A9-127A-4AD4-8B4D-270E39D8886E" expanded="True" code="ahaaGTPUBc" thumbCode="KwFm8ROtby" status="psWhite">
+          <images>
+            <image key="0EB35C5E5FC04ACFFFAFB1F90DB4A12A.png"/>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+          <page name="企业登记信息查询结果" ID="5EC28D7B-A0ED-4261-AF59-2F6EED44B403" expanded="True" code="9AuMmOGa84" thumbCode="9AuMmOGa84" status="psWhite">
+            <images>
+              <image key="BB2526C6756A018D1F4B6EAE238141E1.png"/>
+              <image key="0EB35C5E5FC04ACFFFAFB1F90DB4A12A.png"/>
+              <image key="D637D3F1399814468F4A8691223461F4.png"/>
+              <image key="307B1D107E9CB900EF660E6151F476C9.png"/>
+              <image key="7B06270B0D556D61A0C85623A9DFC16B.png"/>
+              <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+            </images>
+          </page>
+        </page>
+      </page>
+      <page name="商标保护协作" ID="9537B456-7292-482F-BAA8-0CE9CEA40E06" expanded="True" code="uDlNoSPBZG" thumbCode="jmgohkV7XH" status="psWhite">
+        <page name="协助信息录入" ID="BFA86765-28E3-4BB2-9342-5CD057AF9A53" expanded="True" code="6rjor9wGTr" thumbCode="6rjor9wGTr" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息列表-我来协助" ID="EAE07C0F-0CF7-4657-B5B9-786D4705027B" expanded="True" code="sU11rXce9S" thumbCode="sU11rXce9S" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息列表-需要协助" ID="835B6EA7-D6C7-4C72-AE5A-4D047B8F2BF8" expanded="False" code="f2mZpb7Pwv" thumbCode="f2mZpb7Pwv" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-已退回" ID="B4F14ED1-BAA4-4AA1-AC99-CB3B5F753A9F" expanded="True" code="BQHQMANbaP" thumbCode="BQHQMANbaP" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-已处理" ID="2F384ED5-43FD-4D36-B1AE-85CD25B48E1E" expanded="True" code="hUEvZOUULw" thumbCode="hUEvZOUULw" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-待处理" ID="FB8E20E0-305E-49AB-8231-95A7ECCC0C50" expanded="False" code="HF7SZdQvFW" thumbCode="HF7SZdQvFW" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-未接收" ID="B1B3CCF7-A7C9-4B3D-8882-F5A566EA4CD6" expanded="False" code="gvUSf4VJzo" thumbCode="gvUSf4VJzo" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-等待反馈" ID="E318107B-36F7-46A5-B749-DECF7329D8E6" expanded="True" code="cEHMZuhfX1" thumbCode="cEHMZuhfX1" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+      </page>
+      <page name="公平交易执法协作" ID="6F561CB4-EE84-4D6E-8045-3236025253BE" expanded="True" code="rwLhYcsQhO" thumbCode="BDZUzTRvmt" status="psWhite">
+        <page name="协助信息录入-线索转办" ID="47E5D642-F051-40BF-A79A-6B7D484F907A" expanded="False" code="XKlP1HE6pT" thumbCode="XKlP1HE6pT" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息录入-案件协办" ID="64BF61ED-34D0-40C6-8C41-35C907E33591" expanded="True" code="OJkDqGMAxp" thumbCode="OJkDqGMAxp" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息列表-我来协助" ID="2DAFA193-ACB2-43AC-A0DD-E597EEFC9480" expanded="False" code="jazknMt9io" thumbCode="jazknMt9io" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息列表-需要协助" ID="1538FB1E-BCBC-419E-B571-230FEB2F7E43" expanded="True" code="FULeO3YgO8" thumbCode="FULeO3YgO8" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-案件-已退回" ID="9B352DFE-B5C5-40CB-BE4C-CDCA597DC19F" expanded="True" code="jbshlSfNm5" thumbCode="jbshlSfNm5" status="psWhite">
+          <images>
+            <image key="A0915CBB2D030CA2A484FD89D96AC509.svg"/>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-案件-已处理" ID="2411E6E7-3D81-4DD0-AB1E-768CE0B07C76" expanded="True" code="bZWPQXAuuv" thumbCode="bZWPQXAuuv" status="psWhite">
+          <images>
+            <image key="A0915CBB2D030CA2A484FD89D96AC509.svg"/>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页--案件-待处理" ID="73CCB3AD-ADEA-4FF9-AC13-0F4264DEB980" expanded="False" code="djCovzhwHL" thumbCode="djCovzhwHL" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页--案件-未接收" ID="2E87F84D-D88D-40F9-ABC3-C094E9EDC932" expanded="False" code="IGJHELX5ua" thumbCode="IGJHELX5ua" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页--案件-等待反馈" ID="45C06DAB-8346-46EC-8E95-1E4B00A8B116" expanded="True" code="4iqNDc3p2W" thumbCode="4iqNDc3p2W" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-线索-已退回" ID="3578E1E8-C770-4D9F-9811-6C541208E248" expanded="True" code="yAE1Mz5f4q" thumbCode="yAE1Mz5f4q" status="psWhite">
+          <images>
+            <image key="A0915CBB2D030CA2A484FD89D96AC509.svg"/>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页-线索--已处理" ID="087016D5-5688-4841-9B99-B4DE925A3916" expanded="False" code="rX98apSGAY" thumbCode="rX98apSGAY" status="psWhite">
+          <images>
+            <image key="A0915CBB2D030CA2A484FD89D96AC509.svg"/>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页--线索--待处理" ID="2D3B19ED-E48E-44A1-B603-E388C61691D6" expanded="True" code="6ewFQnDw1W" thumbCode="6ewFQnDw1W" status="psWhite">
+          <images>
+            <image key="A0915CBB2D030CA2A484FD89D96AC509.svg"/>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页--线索--未接收" ID="85741708-4DF0-4F29-9D18-3D1C340481C3" expanded="True" code="8vKRU7Iyxh" thumbCode="8vKRU7Iyxh" status="psWhite">
+          <images>
+            <image key="A0915CBB2D030CA2A484FD89D96AC509.svg"/>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="协助信息详细页--线索--等待反馈" ID="6DFBC8A7-12B3-44D5-95B9-26EEEF408049" expanded="True" code="LKkWZFT6tN" thumbCode="LKkWZFT6tN" status="psWhite">
+          <images>
+            <image key="A0915CBB2D030CA2A484FD89D96AC509.svg"/>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+      </page>
+    </page>
+    <page name="工作交流" ID="E7F68A49-D921-4E8A-928C-B31B0ECE12ED" expanded="True" code="FvGPuGSINP" thumbCode="ltqS2OQsXF" status="psWhite">
+      <images>
+        <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+      </images>
+      <page name="知识云-展示" ID="01895B7C-8C6C-4776-81EE-F580CFA4B390" expanded="True" code="Ai7NNBb5ae" thumbCode="Ai7NNBb5ae" status="psWhite">
+        <images>
+          <image key="E25DCBBCD3B163BC25E700DA2023CDEB.png"/>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+        </images>
+        <page name="机构设置与职责详情页" ID="59F6E497-D8D3-42C2-82DA-32E41DBA048F" expanded="False" code="Hqt7zLFmnp" thumbCode="Hqt7zLFmnp" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="导航服务详情页" ID="2BF9DF18-D2C5-43A8-B358-D36AD3724611" expanded="True" code="h6hiMva49a" thumbCode="h6hiMva49a" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+        <page name="领导成员页" ID="00A04306-B58D-4DF1-A701-48DCD0CB7A83" expanded="True" code="dRMN4KgmIg" thumbCode="dRMN4KgmIg" status="psWhite">
+          <images>
+            <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          </images>
+        </page>
+      </page>
+      <page name="知识云-录入" ID="2FCD4780-537C-4600-818D-E13CA6DEC6A6" expanded="True" code="ZjjLqZQsXI" thumbCode="ZjjLqZQsXI" status="psWhite">
+        <images>
+          <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+          <image key="6820897D99CF476AD1DC00579EC979EF.png"/>
+          <image key="D08755C22A9B40B6BF65036DEC8B44B4.svg"/>
+          <image key="26AB19DA18E064FE00F6615186F47983.png"/>
+        </images>
+      </page>
+    </page>
+    <page name="登录页" ID="85D6D285-3AC8-49A4-8020-DF187458B31A" expanded="False" code="25UyF5uuDf" thumbCode="PtDI3BDPyT" isLastOpen="True" status="psWhite">
+      <images>
+        <image key="99BD874FCE84442815D49F9A241497AC.png"/>
+        <image key="7146A60A3A54AB30B2867DF88DA1666A.png"/>
+      </images>
+    </page>
+    <page name="新增主体户数趋势分析" ID="E77EDFD6-8318-4F4D-A4FF-8E4BDC68D04D" expanded="True" code="9muDVZoQZK" thumbCode="9muDVZoQZK" status="psWhite">
+      <images>
+        <image key="C850DAC849EAC2C89CBF812B8147CF11.png"/>
+        <image key="2D62A0EF2C9309F7B93B77716157615A.png"/>
+        <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+      </images>
+    </page>
+    <page name="市场主体产业类型分析" ID="DA0275EA-50A4-47DB-B67D-9784BDFFEDC4" expanded="True" code="WFPVdhvzeu" thumbCode="WFPVdhvzeu" status="psWhite">
+      <images>
+        <image key="F3EDA6415A781398D148C3A65D5D692F.png"/>
+        <image key="9C7F549520B5127147C36437FF27FCC4.png"/>
+      </images>
+    </page>
+    <page name="市场主体活跃度分析" ID="692FB849-9F88-4691-9443-6A4382C1855D" expanded="True" code="Uggufwydlg" thumbCode="Uggufwydlg" status="psWhite">
+      <images>
+        <image key="5E6028B1021C57EA1BBEE33F48A7F511.png"/>
+      </images>
+    </page>
+    <page name="优势行业发展对比分析" ID="180384EF-0070-4B5C-BA53-C43A43BDF078" expanded="True" code="ODZ96NekwJ" thumbCode="ODZ96NekwJ" status="psWhite">
+      <images>
+        <image key="F7093E81FA866A44B21E6AB18604568C.png"/>
+        <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+      </images>
+    </page>
+    <page name="重点产业发展分析" ID="DFCE9322-313D-42D9-B816-39876F175E7C" expanded="True" code="VUZKNXTUmA" thumbCode="VUZKNXTUmA" status="psWhite">
+      <images>
+        <image key="3F3A06165A4786CD2FF760FFA1C15B2B.png"/>
+        <image key="ECB89A6171B6C3353B9CE50C1EE32050.png"/>
+        <image key="AB028C962F67FF23615DC47CC4CB24A5.png"/>
+        <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+      </images>
+    </page>
+    <page name="企业年龄结构分析" ID="30DA8932-5E9D-49B3-9386-B9B0AC1892FC" expanded="True" code="iCSFlgidi9" thumbCode="iCSFlgidi9" status="psWhite">
+      <images>
+        <image key="3FAC4E190AFB8C2B19EE804B715AE047.png"/>
+      </images>
+    </page>
+    <page name="企业及投资人族谱分析" ID="DC10A718-C2F1-42BC-93EA-75A33A8BD360" expanded="True" code="xILUmar8i8" thumbCode="xILUmar8i8" status="psWhite">
+      <images>
+        <image key="CF464F66D04E9BAAEFE853BA2D382130.png"/>
+        <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+      </images>
+    </page>
+    <page name="流动地图" ID="06B24C08-20C3-434B-8A3C-0F3DCFE182C7" expanded="True" code="gIodoHt6ZT" thumbCode="gIodoHt6ZT" status="psWhite">
+      <images>
+        <image key="C98D10B5FE2353063FC48F41885E7CD7.png"/>
+        <image key="842A1DA9FCEC7292B18DD3B0768FB49B.png"/>
+      </images>
+    </page>
+    <page name="四地流动" ID="E6AC8BD8-DBA8-44D4-8A82-A366C12444E3" expanded="True" code="uLYjo1Dgvf" thumbCode="uLYjo1Dgvf" status="psWhite">
+      <images>
+        <image key="5D224A97DE91343ED0A4F4DC3BC3B8C4.png"/>
+      </images>
+    </page>
+  </modules>
+  <masters/>
+  <images>
+    <image key="7E248E452DA5AB7AE8F52344D7859A5B.png"/>
+    <image key="C850DAC849EAC2C89CBF812B8147CF11.png"/>
+    <image key="7146A60A3A54AB30B2867DF88DA1666A.png"/>
+    <image key="50E676EA6AE3B68A4AB40F919F3AAE55.png"/>
+    <image key="BF2DCD3912D20000368455B334ACCF00.png"/>
+    <image key="ECB89A6171B6C3353B9CE50C1EE32050.png"/>
+    <image key="C98D10B5FE2353063FC48F41885E7CD7.png"/>
+    <image key="E509926F3D46EA14F7857261182A4BE3.png"/>
+    <image key="7B06270B0D556D61A0C85623A9DFC16B.png"/>
+    <image key="4B431F253969C840387BC2B99F39A8A3.png"/>
+    <image key="51A0725A15FCCCBD6376C261955F569C.png"/>
+    <image key="5D224A97DE91343ED0A4F4DC3BC3B8C4.png"/>
+    <image key="299E7C96073DDDE683B07ECD9E2F8733.png"/>
+    <image key="F3EDA6415A781398D148C3A65D5D692F.png"/>
+    <image key="D637D3F1399814468F4A8691223461F4.png"/>
+    <image key="AB028C962F67FF23615DC47CC4CB24A5.png"/>
+    <image key="B73A0C9B3A1A0AFBF392A067DA59784F.png"/>
+    <image key="99BD874FCE84442815D49F9A241497AC.png"/>
+    <image key="226E5F5446DB08600403CD74A0ED1658.png"/>
+    <image key="3F3A06165A4786CD2FF760FFA1C15B2B.png"/>
+    <image key="2D62A0EF2C9309F7B93B77716157615A.png"/>
+    <image key="0EB35C5E5FC04ACFFFAFB1F90DB4A12A.png"/>
+    <image key="1C277EC43D0F1E4EC1B7DFEBF5DE5194.png"/>
+    <image key="8BE3C7AC8FBB1747163ECAB9AB46AD44.svg"/>
+    <image key="E25DCBBCD3B163BC25E700DA2023CDEB.png"/>
+    <image key="CF464F66D04E9BAAEFE853BA2D382130.png"/>
+    <image key="26AB19DA18E064FE00F6615186F47983.png"/>
+    <image key="3FAC4E190AFB8C2B19EE804B715AE047.png"/>
+    <image key="BB2526C6756A018D1F4B6EAE238141E1.png"/>
+    <image key="72658D512146FCEC7A7055546381E308.png"/>
+    <image key="C7F349D805ECDE338A877702E78855E2.png"/>
+    <image key="307B1D107E9CB900EF660E6151F476C9.png"/>
+    <image key="9C7F549520B5127147C36437FF27FCC4.png"/>
+    <image key="5E6028B1021C57EA1BBEE33F48A7F511.png"/>
+    <image key="6820897D99CF476AD1DC00579EC979EF.png"/>
+    <image key="A0915CBB2D030CA2A484FD89D96AC509.svg"/>
+    <image key="09891392039943BF6B87673682994D0F.png"/>
+    <image key="8E3B2821712E0404CD45BFC0911756BE.png"/>
+    <image key="963F6D018884ED09DB1CF4FCCAB83EE3.png"/>
+    <image key="595C5E0D21C237D158A8D8CA3ACAE61C.png"/>
+    <image key="842A1DA9FCEC7292B18DD3B0768FB49B.png"/>
+    <image key="5FDA63ABD3566D33A380462552B2DA4D.png"/>
+    <image key="163201074869BF277D39221294B32B1A.png"/>
+    <image key="D08755C22A9B40B6BF65036DEC8B44B4.svg"/>
+    <image key="F7093E81FA866A44B21E6AB18604568C.png"/>
+    <image key="952456CCA4DA4A4F6266FFC983191D3C.png"/>
+  </images>
+</project>
