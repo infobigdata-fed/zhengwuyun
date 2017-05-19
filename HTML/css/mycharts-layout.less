@@ -1,0 +1,166 @@
+    /*分析页面公用样式*/
+    
+    .analys-page {
+        background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(255, 255, 255) 0%, rgb(239, 243, 246) 100%);
+        background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(255, 255, 255) 0%, rgb(239, 243, 246) 100%);
+        background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(255, 255, 255) 0%, rgb(239, 243, 246) 100%);
+        .main-wrap {
+            width: 100%;
+            height: 10.80rem;
+            position: absolute;
+            left: 0;
+            top: 0;
+            overflow: hidden;
+        }
+    }
+    /*企业年龄结构分析页面*/
+    
+    .enterprise-age-structure-analys-page {
+        .chart-tit {
+            padding-left: 80px;
+            .tit-txt {
+                margin-top: 1.3rem;
+                font-size: 36px;
+                color: #f03;
+                line-height: .82rem;
+            }
+        }
+        .chart-box {
+            margin: 0 auto;
+            padding-bottom: .89rem;
+            width: 92%;
+            height: calc(~"100% - 2.11rem");
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    /*市场主体产业类型分析页面*/
+    
+    .market-main-industry-analys-page {
+        .chart-tit {
+            margin-top: .8rem;
+            .tit-txt {
+                margin-bottom: .24rem;
+                font-size: 36px;
+                color: #f03;
+                line-height: .64rem;
+            }
+            .tab-bar {
+                margin: 0 auto;
+                width: 370px;
+                a {
+                    position: relative;
+                    float: left;
+                    display: iblock;
+                    padding-left: 95px;
+                    text-align: right;
+                    padding-bottom: 4px;
+                    span {
+                        display: block;
+                        width: 60px;
+                        font-size: 16px;
+                        line-height: 38px;
+                        color: #666;
+                        text-align: center;
+                    }
+                    &:before {
+                        position: absolute;
+                        content: "";
+                        display: block;
+                        top: 22px;
+                        left: 0;
+                        width: 95px;
+                        height: 1px;
+                        background: #bfbfbf;
+                        line-height: 0;
+                    }
+                    &:after {
+                        position: absolute;
+                        content: "";
+                        display: block;
+                        bottom: 0;
+                        right: 22px;
+                        width: 14px;
+                        height: 4px;
+                        background: transparent;
+                        line-height: 0;
+                    }
+                    &:first-child {
+                        padding-left: 0;
+                        &:before {
+                            width: 0;
+                        }
+                    }
+                    &.a-on,
+                    &:hover {
+                        transition: all .2s;
+                        span {
+                            // font-size: 18px;
+                            transform: scale(1.12);
+                            color: #f03;
+                        }
+                        &:after {
+                            background: #f03;
+                        }
+                    }
+                }
+            }
+        }
+        .chart-box {
+            margin: 0 auto;
+            width: 92%;
+            height: calc(~"100% - 2.89rem");
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    /*市场主体活跃度分析*/
+    
+    .market-main-event-analys-page {
+        .header-1 {
+            display: block;
+        }
+        .chart-tit {
+            margin-top: .8rem;
+            .tit-txt {
+                margin-bottom: .46rem;
+                font-size: 36px;
+                color: #f03;
+                line-height: .68rem;
+            }
+        }
+        .chart-select {
+            /*下拉选择*/
+            position: absolute;
+            top: 1.3rem;
+            left: 80px;
+            .Mselect {
+                height: 40px;
+                line-height: 40px;
+                border-radius: 5px;
+                text-indent: 20px;
+            }
+            .Mchecked {
+                font-size: 16px;
+                color: #333;
+                border: none;
+                box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.1);
+            }
+            .MoptionBox {
+                border-top: 1px solid #e5e5e5;
+            }
+        }
+        .chart-box {
+            margin: 0 auto;
+            width: 92%;
+            height: calc(~"100% - 1.94rem");
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }

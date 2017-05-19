@@ -1,0 +1,151 @@
+{
+	"name": "flare",
+	"type": 0,
+	"children": [
+		{
+			"name": "analytics",
+			"type": 1,
+			"children": [
+				{
+					"name": "cluster"
+				}, {
+					"name": "graph"
+				}, {
+					"name": "optimization"
+				}
+			]
+		}, {
+			"name": "animate",
+			"type": 2,
+			"children": [
+				{
+					"name": "Easing"
+				}, {
+					"name": "FunctionSequence"
+				}, {
+					"name": "interpolate"
+				}, {
+					"name": "ISchedulable"
+				}, {
+					"name": "Parallel"
+				}, {
+					"name": "Pause"
+				}, {
+					"name": "Scheduler"
+				}, {
+					"name": "Sequence"
+				}, {
+					"name": "Transition"
+				}, {
+					"name": "Transitioner"
+				}, {
+					"name": "TransitionEvent"
+				}, {
+					"name": "Tween"
+				}, {
+					"name": "IForce"
+				}, {
+					"name": "NBodyForce"
+				}, {
+					"name": "Particle"
+				}, {
+					"name": "Simulation"
+				}, {
+					"name": "Spring"
+				}, {
+					"name": "SpringForce"
+				}, {
+					"name": "LinearScale"
+				}, {
+					"name": "LogScale"
+				}, {
+					"name": "OrdinalScale"
+				}, {
+					"name": "QuantileScale"
+				}, {
+					"name": "QuantitativeScale"
+				}, {
+					"name": "RootScale"
+				}, {
+					"name": "Scale"
+				}, {
+					"name": "ScaleType"
+				}, {
+					"name": "TimeScale"
+				}
+			]
+		}, {
+			"name": "display",
+			"type": 3,
+			"children": [
+				{
+					"name": "DirtySprite"
+				}, {
+					"name": "LineSprite"
+				}, {
+					"name": "RectSprite"
+				}, {
+					"name": "TextSprite"
+				}
+			]
+		}, {
+			"name": "flex",
+			"type": 4,
+			"children": [
+				{
+					"name": "FlareVis"
+				}
+			]
+		}, {
+			"name": "physics",
+			"type": 5,
+			"children": [
+				{
+					"name": "DragForce"
+				}, {
+					"name": "GravityForce"
+				}
+			]
+		}, {
+			"name": "scale",
+			"type": 6,
+			"children": [
+				{
+					"name": "IScaleMap"
+				}
+			]
+		}, {
+			"name": "display",
+			"type": 7,
+			"children": [
+				{
+					"name": "DirtySprite",
+					"type": -1
+				}, {
+					"name": "LineSprite"
+				}, {
+					"name": "RectSprite"
+				}, {
+					"name": "RectSprite",
+					"type": -1
+				}, {
+					"name": "TextSprite",
+					"type": -2
+				}, {
+					"name": "LineSprite",
+					"type": -2
+				}, {
+					"name": "LineSprite",
+					"type": -1
+				}, {
+					"name": "RectSprite",
+					"type": -2
+				}, {
+					"name": "TextSprite"
+				}, {
+					"name": "TextSprite"
+				}
+			]
+		}
+	]
+}

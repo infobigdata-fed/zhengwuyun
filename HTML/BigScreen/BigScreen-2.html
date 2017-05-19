@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<title></title>
+		<script>
+			var winResizeFn = function() {
+				document.getElementsByTagName('html')[0].style.fontSize = document.documentElement.clientHeight / 10.80 +
+					"px";
+			};
+			winResizeFn();
+			window.onresize = winResizeFn;
+		</script>
+		<link rel="stylesheet" type="text/css" href="../css/mbase.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/BigScreen-2.css" />
+		<link rel="stylesheet" type="text/css" href="../mCustomScrollbar/jquery.mCustomScrollbar.min.css" />
+		<script src="../js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="../js/mbase.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/esl.js"></script>
+		<script src="js/zrender.js"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				var _year = new Date().getFullYear(),
+					_year_len = $('.year-div div span').size();
+				$('.year-div div span').each(function(i) {
+					$(this).html(_year-_year_len+i);
+				});
+			})
+		</script>
+	</head>
+
+	<body class="header-dark">
+		<header class="header-wrap">
+			<div class="header">
+				<a class="logo-1 left vertical" href="index.html"></a>
+				<div class="loginBar-1 right">
+					<div class="list-box vertical">
+						<div class="tx-box left"></div>
+						<div class="list-tit">江城工商</div>
+						<div class="list-cont">
+							<ii></ii>
+							<div class="list-items">
+								<a href="">个人中心</a>
+								<a href="">退出</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header-1-nav right">
+					<ul>
+						<li>
+							<div class="list-box">
+								<div class="list-tit">信息门户</div>
+								<div class="list-cont">
+									<ii></ii>
+									<div class="list-items">
+										<a href="">通知公告</a>
+										<a href="">政务信息</a>
+										<a href="">业务信息</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-box">
+								<div class="list-tit">工作交流</div>
+								<div class="list-cont">
+									<ii></ii>
+									<div class="list-items">
+										<a href="">知识云</a>
+										<a href="">视频会议</a>
+										<a href="">在线沟通</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-box">
+								<div class="list-tit">业务协同</div>
+								<div class="list-cont">
+									<ii></ii>
+									<div class="list-items">
+										<a href="">12315消费维权协作</a>
+										<a href="">注册登记协作</a>
+										<a href="">商标保护协作</a>
+										<a href="">公平交易执法协作</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-box">
+								<div class="list-tit">数据分析</div>
+								<div class="list-cont">
+									<ii></ii>
+									<div class="list-items">
+										<a href="">跨四市流动数据融合平台</a>
+										<a href="">新增主体户数对比分析</a>
+										<a href="">市场主体产业类型分析</a>
+										<a href="">市场主体活跃度分析</a>
+										<a href="">重点产业结构发展分析</a>
+										<a href="">企业年龄结构分析</a>
+										<a href="">企业及投资人族谱分析</a>
+										<a href="">四城市市场主体迁移分析</a>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="header-search-box right">
+					<div class="search-icon"></div>
+					<form class="nav_1_form vertical" style="display:none;">
+						<input type="text" value="" placeholder="" />
+						<input type="submit" value="" />
+					</form>
+				</div>
+			</div>
+		</header>
+		<div class="main-wrap flexBox left">
+			<div id="main" class="main" style="display: none;"></div>
+			<div id="main-2" class="main vertical center">
+				<input type="hidden" id="data" value="[{&quot;liuchu&quot;:32667,&quot;gdp&quot;:1000,&quot;import&quot;:[{&quot;name&quot;:&quot;&#x6C5F;&#x5CB8;&#x533A;&quot;,&quot;value&quot;:8971}],&quot;liurubi&quot;:&quot;21.55&quot;,&quot;liuchubi&quot;:&quot;78.45&quot;,&quot;name&quot;:&quot;&#x6B66;&#x660C;&#x533A;&quot;,&quot;liuru&quot;:8971,&quot;renkou&quot;:1000,&quot;mianji&quot;:1000,&quot;export&quot;:[{&quot;name&quot;:&quot;&#x6C5F;&#x5CB8;&#x533A;&quot;,&quot;value&quot;:32667}]},{&quot;liuchu&quot;:8971,&quot;gdp&quot;:1000,&quot;import&quot;:[{&quot;name&quot;:&quot;&#x6B66;&#x660C;&#x533A;&quot;,&quot;value&quot;:32667}],&quot;liurubi&quot;:&quot;78.45&quot;,&quot;liuchubi&quot;:&quot;21.55&quot;,&quot;name&quot;:&quot;&#x6C5F;&#x5CB8;&#x533A;&quot;,&quot;liuru&quot;:32667,&quot;renkou&quot;:1000,&quot;mianji&quot;:1000,&quot;export&quot;:[{&quot;name&quot;:&quot;&#x6B66;&#x660C;&#x533A;&quot;,&quot;value&quot;:8971}]}]">
+				<svg xmlns="http://www.w3.org/2000/svg" id="Chart" width="985" height="620" viewBox="0 0 985 620">
+					<metadata>
+						<!--?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?-->
+						<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+							<rdf:rdf xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+								<rdf:description rdf:about=""></rdf:description>
+							</rdf:rdf>
+						</x:xmpmeta>
+						<!--?xpacket end="w"?-->
+					</metadata>
+					<g id="Wuhan">
+						<g id="Export" transform="translate(222,380)">
+							<path id="BG" class="cls-1" d="M0,0h90v230a3,3,0,0,1,-3,3h-84a3,3,0,0,1,-3,-3Z"></path>
+							<text id="liuchu-1" data-name="流出 ¥ 963.30 亿元" class="cls-2" x="9.568" y="21.475">流出
+							<tspan id="liuchu-1-m" class="cls-3" x="9.568" dy="19.2">¥ 963.30</tspan>
+							<tspan class="cls-4" x="9.568" dy="14.4">亿元</tspan>
+						</text>
+							<g id="City">
+								<g data-name="1" transform="translate(80,98)">
+									<rect id="Line" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="长沙" class="cls-6" x="-6" y="5">长沙</text>
+								</g>
+								<g data-name="2" transform="translate(80,128)">
+									<rect id="Line-2" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="杭州" class="cls-6" x="-6" y="5">杭州</text>
+								</g>
+								<g data-name="3" transform="translate(80,148)">
+									<rect id="Line-3" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="南昌" class="cls-6" x="-6" y="5">南昌</text>
+								</g>
+								<g data-name="4" transform="translate(80,178)">
+									<rect id="Line-4" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="合肥" class="cls-6" x="-6" y="5">合肥</text>
+								</g>
+								<g data-name="5" transform="translate(80,220)">
+									<rect id="Line-5" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="其他" class="cls-6" x="-6" y="5">其他</text>
+								</g>
+							</g>
+						</g>
+						<g id="Import" transform="translate(222,380)">
+							<path id="BG-2" data-name="BG" class="cls-7" d="M0,0h90v-376a3,3,0,0,0,-3,-3h-84a3,3,0,0,0,-3,3Z"></path>
+							<text id="liuru-1" data-name="流入 ¥ 1521.42 亿元" class="cls-2" x="9.568" y="-376" transform="translate(0 18)">流入
+							<tspan id="liuru-1-m" class="cls-3" dy="19.2" x="9.568">¥ 1521.42</tspan>
+							<tspan class="cls-4" x="9.568" dy="14.4">亿元</tspan>
+						</text>
+							<g id="City-2" data-name="City">
+								<g data-name="1" transform="translate(80,-78)">
+									<rect id="Line-6" data-name="Line" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="南京" class="cls-6" x="-6" y="5">南京</text>
+								</g>
+								<g data-name="2" transform="translate(80,-108)">
+									<rect id="Line-7" data-name="Line" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="长沙-2" data-name="长沙" class="cls-6" x="-6" y="5">长沙</text>
+								</g>
+								<g data-name="3" transform="translate(80,-138)">
+									<rect id="Line-8" data-name="Line" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="合肥-2" data-name="合肥" class="cls-6" x="-6" y="5">合肥</text>
+								</g>
+								<g data-name="4" transform="translate(80,-178)">
+									<rect id="Line-9" data-name="Line" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="南昌-2" data-name="南昌" class="cls-6" x="-6" y="5">南昌</text>
+								</g>
+								<g data-name="5" transform="translate(80,-220)">
+									<rect id="Line-10" data-name="Line" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="其他-2" data-name="其他" class="cls-6" x="-6" y="5">其他</text>
+								</g>
+							</g>
+						</g>
+						<g id="info">
+							<text id="chengshi-1" class="cls-8" x="173.466" y="234.203">武汉</text>
+							<g id="chengshi-1-gdp" data-name="1">
+								<circle id="Point" class="cls-7" cx="191" cy="265" r="12"></circle>
+								<text id="GDP_11912.68_亿元" data-name="GDP：11912.68 亿元" class="cls-9" x="173.466" y="270.205">GDP：11912.68 亿元</text>
+							</g>
+							<g id="chengshi-1-renkou" data-name="2">
+								<circle id="Point-2" data-name="Point" class="cls-7" cx="191" cy="299" r="10"></circle>
+								<text id="人口_1060.77_万人" data-name="人口：1060.77 万人" class="cls-9" x="173.466" y="304.204">人口：1060.77 万人</text>
+							</g>
+							<g id="chengshi-1-mianji" data-name="3">
+								<circle id="Point-3" data-name="Point" class="cls-7" cx="191" cy="333" r="10"></circle>
+								<text id="面积_8494.41_平方公里" data-name="面积：8494.41 平方公里" class="cls-9" x="173.466" y="338.204">面积：8494.41 平方公里</text>
+							</g>
+							<g id="chengshi-1-liuru" data-name="4">
+								<g id="Chart-2" data-name="Chart">
+									<circle id="_1-4" data-name="1" cx="191" cy="367" r="10" stroke-width="7" stroke="#86393f" fill="none"></circle>
+									<circle id="_2-4" data-name="2" cx="191" cy="367" r="10" stroke-width="7" stroke="#ff5c57" fill="none" transform="rotate(-90 191 367)"></circle>
+								</g>
+								<text id="资金流入总量占比_61.23_" data-name="资金流入总量占比：61.23%" class="cls-9" x="173.466" y="372.203">资金流入总量占比：61.23%</text>
+							</g>
+							<g id="chengshi-1-liuchu" data-name="5">
+								<g id="Chart-3" data-name="Chart">
+									<circle id="_1-5" data-name="1" cx="191" cy="400" r="10" stroke-width="7" stroke="#86393f" fill="none"></circle>
+									<circle id="_2-5" data-name="2" cx="191" cy="400" r="10" stroke-width="7" stroke="#ff5c57" fill="none" transform="rotate(-90 191 400)"></circle>
+								</g>
+								<text id="资金流出总量占比_58.63_" data-name="资金流出总量占比：58.63%" class="cls-9" x="173.466" y="406.207">资金流出总量占比：58.63%</text>
+							</g>
+						</g>
+					</g>
+					<g id="Changsha">
+						<g id="Export-2" data-name="Export" transform="translate(672,290)">
+							<path id="BG-3" data-name="BG" class="cls-12" d="M0,0h90v-200a3,3,0,0,0,-3,-3h-84a3,3,0,0,0,-3,3Z"></path>
+							<text id="liuchu-2" data-name="流出 ¥ 337.88 亿元" class="cls-2" x="9.568" y="-200" transform="translate(0 18)">流出
+							<tspan id="liuchu-2-m" class="cls-3" x="9.568" dy="19.2">¥ 337.88</tspan>
+							<tspan class="cls-4" x="9.568" dy="14.4">亿元</tspan>
+						</text>
+							<g id="City-3" data-name="City">
+								<g data-name="1" transform="translate(80,-108)">
+									<rect id="Line-11" data-name="Line" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="武汉-3" data-name="武汉" class="cls-6" x="-6" y="5">武汉</text>
+								</g>
+								<g data-name="2" transform="translate(80,-78)">
+									<rect id="Line-12" data-name="Line" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="合肥-3" data-name="合肥" class="cls-6" x="-6" y="5">合肥</text>
+								</g>
+								<g data-name="3" transform="translate(80,-48)">
+									<rect id="Line-13" data-name="Line" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="其他-3" data-name="其他" class="cls-6" x="-6" y="5">其他</text>
+								</g>
+								<g data-name="4" transform="translate(80,-48)" style="display: none;">
+									<rect id="Line-11" data-name="Line" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="南昌-3" data-name="南昌" class="cls-6" x="-6" y="5">南昌</text>
+								</g>
+								<g data-name="5" transform="translate(80,-48)" style="display: none;">
+									<rect id="Line-12" data-name="Line" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="长沙-3" data-name="长沙" class="cls-6" x="-6" y="5">长沙</text>
+								</g>
+
+							</g>
+						</g>
+						<g id="Import-2" data-name="Import" transform="translate(672,290)">
+							<path id="BG-4" data-name="BG" class="cls-13" d="M0,0h90v290a3,3,0,0,1,-3,3h-84a3,3,0,0,1,-3,-3Z"></path>
+							<text id="liuru-2" data-name="流入 ¥ 558.92 亿元" class="cls-2" x="9.568" y="21.475">流入
+							<tspan id="liuru-2-m" class="cls-3" x="9.586" dy="19.2">¥ 558.92</tspan>
+							<tspan class="cls-4" x="9.586" dy="14.4">亿元</tspan>
+						</text>
+							<g id="City-4" data-name="City">
+								<g data-name="1" transform="translate(80,78)">
+									<rect id="Line-14" data-name="Line" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="武汉-3" data-name="武汉" class="cls-6" x="-6" y="5">武汉</text>
+								</g>
+								<g data-name="2" transform="translate(80,108)">
+									<rect id="Line-15" data-name="Line" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="长沙-3" data-name="长沙" class="cls-6" x="-6" y="5">长沙</text>
+								</g>
+								<g data-name="3" transform="translate(80,138)">
+									<rect id="Line-16" data-name="Line" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="合肥-4" data-name="合肥" class="cls-6" x="-6" y="5">合肥</text>
+								</g>
+								<g data-name="4" transform="translate(80,178)">
+									<rect id="Line-17" data-name="Line" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="南昌-3" data-name="南昌" class="cls-6" x="-6" y="5">南昌</text>
+								</g>
+								<g data-name="5" transform="translate(80,208)">
+									<rect id="Line-18" data-name="Line" class="cls-5" x="0" y="0" width="10" height="1"></rect>
+									<text id="其他-4" data-name="其他" class="cls-6" x="-6" y="5">其他</text>
+								</g>
+							</g>
+						</g>
+						<g id="info-2" data-name="info">
+							<text id="chengshi-2" data-name="长沙" class="cls-14" x="810.466" y="248.206">长沙</text>
+							<g id="chengshi-2-gdp" data-name="1">
+								<circle id="Point-4" data-name="Point" class="cls-13" cx="793" cy="279" r="10"></circle>
+								<text id="GDP_9323.72_亿元" data-name="GDP：9323.72 亿元" class="cls-15" x="811.466" y="284.203">GDP：9323.72 亿元</text>
+							</g>
+							<g id="chengshi-2-renkou" data-name="2">
+								<circle id="Point-5" data-name="Point" class="cls-13" cx="793" cy="313" r="8"></circle>
+								<text id="人口_743.18_万人" data-name="人口：743.18 万人" class="cls-15" x="811.466" y="318.203">人口：743.18 万人</text>
+							</g>
+							<g id="chengshi-2-miamji" data-name="3">
+								<circle id="Point-6" data-name="Point" class="cls-13" cx="793" cy="347" r="13"></circle>
+								<text id="面积_11819_平方公里" data-name="面积：11819 平方公里" class="cls-15" x="811.466" y="352.207">面积：11819 平方公里</text>
+							</g>
+							<g id="chengshi-2-liuru" data-name="4">
+								<g id="Chart-4" data-name="Chart">
+									<circle id="_1-9" data-name="1" cx="793" cy="381" r="10" stroke-width="7" stroke="#86393f" fill="none"></circle>
+									<circle id="_2-9" data-name="2" cx="793" cy="381" r="10" stroke-width="7" stroke="#ff5c57" fill="none" transform="rotate(-90 793 381)"></circle>
+								</g>
+								<text id="资金流入总量占比_53.57_" data-name="资金流入总量占比：53.57%" class="cls-15" x="811.466" y="386.206">资金流入总量占比：53.57%</text>
+							</g>
+							<g id="chengshi-2-liuchu" data-name="5">
+								<g id="Chart-5" data-name="Chart">
+									<circle id="_1-10" data-name="1" cx="793" cy="415" r="10" stroke-width="7" stroke="#86393f" fill="none"></circle>
+									<circle id="_2-10" data-name="2" cx="793" cy="415" r="10" stroke-width="7" stroke="#ff5c57" fill="none" transform="rotate(-90 793 415)"></circle>
+								</g>
+								<text id="资金流出总量占比_41.57_" data-name="资金流出总量占比：41.57%" class="cls-15" x="811.466" y="420.206">资金流出总量占比：41.57%</text>
+							</g>
+						</g>
+					</g>
+					<g>
+						<g id="Line-19-x" data-name="1" class="" transform="translate(-252 -260)"></g>
+						<path id="Line-19-s" data-name="1" class="cls-18" d="M564,293C744,293,744,433,924,433" transform="translate(-252 -260)" stroke-width="60"></path>
+						<g id="Line-20-x" data-name="2" class="" transform="translate(-252 -260)"></g>
+						<path id="Line-20-s" data-name="2" class="cls-20" d="M564,763C744,763,744,660,924,660" transform="translate(-252 -260)" stroke-width="30"></path>
+					</g>
+				</svg>
+			</div>
+			<div class="legend"></div>
+			<div class="year-div overflow">
+				<div><i style="height: 14px;"></i><span>2008</span></div>
+				<div><i style="height: 10px;"></i><span>2009</span></div>
+				<div><i style="height: 12px;"></i><span>2010</span></div>
+				<div><i style="height: 14px;"></i><span>2011</span></div>
+				<div><i style="height: 16px;"></i><span>2012</span></div>
+				<div><i style="height: 20px;"></i><span>2013</span></div>
+				<div><i style="height: 22px;"></i><span>2014</span></div>
+				<div class="active"><i style="height: 26px;"></i><span>2015</span></div>
+				<div><i style="height: 32px;"></i><span>2016</span></div>
+				<a class="play-pause"></a>
+			</div>
+		</div>
+		<div class="content-right flexBox">
+			<div class="right-div">
+				<div class="content-xq">
+					<h3 class="content-xq-h">展示指标</h3>
+					<div class="display-indicators-div">
+						<a class="display-indicators left active">资金流动总量</a>
+						<a class="display-indicators left">企业数量</a>
+					</div>
+				</div>
+				<div class="content-xq">
+					<h3 class="content-xq-h">筛选条件</h3>
+					<div class="screening-condition-div">
+						<div class="screening-condition left canFocus screening-condition-1">
+							<p class="screening-condition-h">企业类型：</p>
+							<p class="checked-p textOverflow checked-p-1">全部</p>
+							<input class="checked-input" type="hidden" />
+							<div class="option-div" style="width: 210px;">
+								<p style="color: #FFFFFF;">全部</p>
+								<div class="ption-div-p textT1">有限责任公司</div>
+								<div class="ption-div-d ption-div-d-1">
+									<p class="textT2">国有独资</p>
+									<p class="textT2">外商投资企业投资</p>
+									<p class="textT2">外商投资企业合资</p>
+									<p class="textT2">外商投资企业与内资合资</p>
+									<p class="textT2">外商投资企业法人独资</p>
+									<p class="textT2">自然人投资或控股</p>
+									<p class="textT2">国有控股</p>
+								</div>
+								<div class="ption-div-p textT1">股份有限公司</div>
+								<div class="ption-div-d ption-div-d-1">
+									<p class="textT2">上市</p>
+									<p class="textT2">上市、外商投资企业投资</p>
+									<p class="textT2">上市、自然人投资或控股</p>
+									<p class="textT2">上市、国有控股 非上市</p>
+								</div>
+							</div>
+						</div>
+						<div class="screening-condition left canFocus screening-condition-1">
+							<p class="screening-condition-h">行业门类：</p>
+							<p class="checked-p textOverflow checked-p-1">全部</p>
+							<input class="checked-input" type="hidden" />
+							<div class="option-div" style="width: 250px;margin-left: -50px;">
+								<p style="color: #FFFFFF;">全部</p>
+								<p>农、林、牧、渔业</p>
+								<p>采矿业</p>
+								<p>制造业</p>
+								<p>电力、热力、燃气及水生产和供应业</p>
+								<p>建筑业</p>
+								<p>批发和零售业</p>
+								<p>交通运输、仓储和邮政业</p>
+								<p>住宿和餐饮业</p>
+								<p>信息传输、软件和信息技术服务业</p>
+								<p>金融业</p>
+								<p>房地产业</p>
+								<p>租赁和商业服务业</p>
+								<p>科学研究和技术服务业</p>
+								<p>水利、环境和公共设施管理业</p>
+								<p>居民服务、修理和其他服务业</p>
+								<p>教育</p>
+								<p>卫生和社会工作</p>
+								<p>文化、体育和娱乐业</p>
+								<p>公共管理、社会保障和社会组织</p>
+								<p>国际组织</p>
+							</div>
+						</div>
+						<div class="screening-condition left canFocus screening-condition-1">
+							<p class="screening-condition-h">注册资本：</p>
+							<p class="checked-p textOverflow checked-p-1">全部</p>
+							<input class="checked-input" type="hidden" />
+							<div class="option-div" style="width: 144px;">
+								<p style="color: #FFFFFF;">全部</p>
+								<p>500万以下</p>
+								<p>500-1000万</p>
+								<p>1000-5000万</p>
+								<p>5000万以上</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content-xq">
+					<h3 class="content-xq-h">城市</h3>
+					<div class="screening-condition-div screening-condition-div-2">
+						<div class="screening-condition left canFocus" style="width: 90px;">
+							<p class="checked-p textOverflow">操作</p>
+							<input class="checked-input" type="hidden" />
+							<div class="option-div" style="width: 170px;">
+								<div class="ption-div-p">选择</div>
+								<div class="ption-div-d" style="display: block;">
+									<p class="ption-all textT1">选择全部城市</p>
+									<p class="ption-all-not textT1">取消选择全部城市</p>
+								</div>
+								<hr class="option-hr" />
+								<div class="ption-div-p">分组</div>
+								<div class="ption-div-d" style="display: block;">
+									<p class="textT1">合并为组</p>
+									<p class="textT1">取消合并</p>
+									<p class="textT1">重命组名</p>
+								</div>
+								<hr class="option-hr" />
+								<div class="ption-div-p">删 除</div>
+								<div class="ption-div-d" style="display: block;">
+									<p class="delete-ption textT1">删除所选城市</p>
+									<p class="delete-all textT1">删除全部城市</p>
+									<p class="textT1">重命组名</p>
+								</div>
+								<hr class="option-hr" />
+								<div class="ption-div-p">增加最关联城市</div>
+								<div class="ption-div-d" style="display: block;">
+									<p class="textT1">按资金流入流出总量</p>
+									<p class="textT1">按资金流入量</p>
+									<p class="textT1">按资金流出量</p>
+								</div>
+							</div>
+						</div>
+						<div class="screening-condition left canFocus" style="width: 90px;">
+							<p class="checked-p textOverflow">排序</p>
+							<input class="checked-input" type="hidden" />
+							<div class="option-div" style="width: 170px;margin-left: -40px;">
+								<p>默认</p>
+								<p>A~Z</p>
+								<hr class="option-hr" />
+								<div class="ption-div-p">按指标降序顺时针排列</div>
+								<div class="ption-div-d" style="display: block;">
+									<p class="textT1">资金流动总量</p>
+									<p class="textT1">资金流入量</p>
+									<p class="textT1">资金流出量</p>
+								</div>
+								<hr class="option-hr" />
+								<div class="ption-div-p">按影响因素</div>
+								<div class="ption-div-d" style="display: block;">
+									<p class="textT1">GDP</p>
+									<p class="textT1">人口</p>
+									<p class="textT1">从业人数</p>
+									<p class="textT1">平均工资</p>
+								</div>
+							</div>
+						</div>
+						<div class="screening-condition left canFocus" style="width: 30px;">
+							<p class="checked-p textOverflow add-1"></p>
+							<div class="nav-add-div" style="width: 340px; margin-left: -300px;">
+								<div class="overflow">
+									<div class="left region">
+										<p>全部城市 <i>114</i></p>
+										<p>长江三角洲城市群 <i>26</i></p>
+										<p class="active">长江中游城市群 <i>31</i></p>
+										<p>武汉城市圈 <i>9</i></p>
+										<p>环长株潭城市群 <i>8</i></p>
+										<p>环鄱阳湖城市群 <i>38</i></p>
+									</div>
+									<div class="left city MScroll">
+										<div class="city-div"></div>
+										<div class="city-div"></div>
+										<div class="city-div" style="display: block;">
+											<p>武汉</p>
+											<p>长沙</p>
+											<p>合肥</p>
+											<p>南昌</p>
+											<p>杭州</p>
+											<p>南京</p>
+											<p>武汉</p>
+											<p>长沙</p>
+											<p>合肥</p>
+											<p>南昌</p>
+											<p>杭州</p>
+											<p>南京</p>
+											<p>上饶</p>
+											<p>株洲</p>
+											<p>宜昌</p>
+											<p>芜湖</p>
+											<p>湘潭</p>
+											<p>武汉</p>
+											<p>长沙</p>
+											<p>南昌</p>
+											<p>合肥</p>
+											<p>上饶</p>
+											<p>株洲</p>
+											<p>宜昌</p>
+											<p>芜湖</p>
+											<p>湘潭</p>
+										</div>
+										<div class="city-div"></div>
+										<div class="city-div"></div>
+										<div class="city-div"></div>
+									</div>
+								</div>
+								<div class="nav-add-div-2">
+									<p>添加所有城市</p>
+									<p>添加“长江中游城市群”为一组</p>
+									<p>添加“其余所有城市”为一组</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="checked-city">
+						<a class="a-wuhan">武汉<i></i></a>
+						<a class="a-changsha">长沙<i></i></a>
+					</div>
+				</div>
+				<div class=" content-xq ">
+					<h3 class="content-xq-h">城市</h3>
+					<div class="screening-condition-div screening-condition-div-3">
+						<div class="screening-condition left canFocus" style="width: 30px;">
+							<p class="checked-p textOverflow add-3"></p>
+							<div class="option-div nav-add-div-3" style="width: 120px; margin-left: -80px;">
+								<p class="factors-1">GDP</p>
+								<p class="factors-2">人口</p>
+								<p class="factors-3">从业人数</p>
+								<p class="factors-4">平均工资</p>
+							</div>
+						</div>
+					</div>
+					<div class="factors-content">
+						<p><span>因素</span><span>单位</span><span>贡献率&nbsp;&nbsp;</span></p>
+						<ul>
+							<li class="rise factors-1">
+								<span>GDP</span>
+								<span>亿元</span>
+								<span>15%</span>
+								<a></a>
+							</li>
+							<li class="fall factors-2">
+								<span>人口</span>
+								<span>万人</span>
+								<span>8%</span>
+								<a></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<a class="preserve"><img src="../img/preserve-1.png" /></a>
+				<div class="tanchuang">
+					<div class="tanchuang-tc">
+						<a class="tanchuang-close"></a>
+						<p class="tanchuang-tc-p1">当前流动数据：</p>
+						<p><input class="tanchuang-tc-input1" type="text" name="" id="" value="" placeholder="请输入当前流动数据名称" /><input class="tanchuang-tc-input2" type="button" id="" value="保存" /></p>
+						<p class="tanchuang-tc-p1">已保存流动数据：</p>
+						<p class="tanchuang-tc-p2">
+							<a class="tanchuang-tc-a textOverflow">长江中游四市流动数据情况</a><span class="tanchuang-tc-span"></span></p>
+						<p class="tanchuang-tc-p2">
+							<a class="tanchuang-tc-a textOverflow">长江中游四市流动数据情况</a><span class="tanchuang-tc-span"></span></p>
+						<p class="tanchuang-tc-p2">
+							<a class="tanchuang-tc-a textOverflow">长江中游四市流动数据情况长江中游四市流动数据情况</a><span class="tanchuang-tc-span"></span></p>
+						<div class="fengxianglujing center bdsharebuttonbox" data-tag="share_1">
+							<a class="bds_copy M4xunwen" data-cmd="copy"></a>
+							<a class="bds_weixin M4xunwen" data-cmd="weixin"></a>
+							<a class="bds_tsina M4xunwen" data-cmd="tsina"></a>
+							<a class="bds_sqq M4xunwen" data-cmd="sqq"></a>
+						</div>
+						<script>
+							window._bd_share_config = {
+								//此处添加分享具体设置
+								common: {
+									bdText: '分享的内容',
+									bdDesc: '分享的摘要',
+									bdUrl: 'www.baidu.com', //分享的Url地址
+									bdPic: 'http://127.0.0.1:8020/MyAPI/img/img_the_scream.jpg', //分享的图片
+									onBeforeClick: function(cmd, config) { /*在用户点击分享按钮时执行代码，更改配置。cmd为分享目标id， config为当前设置， 返回值为更新后的设置。*/
+										if('条件') {
+											return {
+												bdUrl: 'http://www.qq.com/',
+												bdPic: 'http://mat1.gtimg.com/www/images/qq2012/qqlogo_1x.png',
+											}
+										}
+									},
+								},
+								share: {
+									bdCustomStyle: "css/fx.css"
+								}, //配置本地样式
+							}
+
+							//以下为js加载部分
+							with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=' + ~(-new Date() / 36e5)];
+						</script>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="js/BigScreen-2.js"></script>
+		<div id="tk-box" style="position: fixed;z-index: 99; display: none;">
+			<h4>从<em id="tk-h-liuchu">南京</em>流入<em id="tk-h-liuru">武汉</em>资金总额：</h4>
+			<p class="p1"><span id="tk-jinge">485.83 </span>亿元</p>
+			<p class="p2">占<em id="tk-liuru">武汉</em>流入比<span id="tk-liurubi">20</span>%</p>
+			<p class="p2">占<em id="tk-liuchu">长沙</em>流出比<span id="tk-liuchubi">30</span>%</p>
+		</div>
+	</body>
+
+</html>

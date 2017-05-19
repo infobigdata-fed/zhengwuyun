@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		<link rel="stylesheet" type="text/css" href="css/mbase.css" />
+		<script src="js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+		<ul class="left-sidebar">
+			<li class="show">
+				<a href="javascript:;">1</a>
+				<ul>
+					<li>
+						<a href="javascript:;">11</a>
+					</li>
+					<li>
+						<a href="javascript:;">12+</a>
+						<ul>
+							<li>
+								<a href="javascript:;">121</a>
+							</li>
+							<li>
+								<a href="javascript:;">122</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="javascript:;">13+</a>
+						<ul>
+							<li>
+								<a href="javascript:;">131</a>
+							</li>
+							<li>
+								<a href="javascript:;">132+</a>
+								<ul>
+									<li>
+										<a href="javascript:;">1321</a>
+									</li>
+									<li>
+										<a href="javascript:;">1322</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="javascript:;">2</a>
+			</li>
+		</ul>
+		<style type="text/css">
+			.left-sidebar {
+				width: 220px;
+				background: #f9f9f9;
+				border: 1px solid #DDDDDD;
+			}
+			
+			.left-sidebar ul {
+				display: none;
+			}
+			
+			.left-sidebar .show>ul {
+				display: block;
+			}
+			
+			.left-sidebar a {
+				display: block;
+				height: 40px;
+				line-height: 40px;
+				padding: 0 10px;
+				color: #333;
+				font-size: 18px;
+				background-color: #f9f9f9;
+			}
+			
+			.left-sidebar ul a {
+				padding-left: 20px;
+			}
+			
+			.left-sidebar ul ul a {
+				padding-left: 30px;
+			}
+			
+			.left-sidebar-nav {
+				border-top: 1px solid #DDDDDD;
+				border-bottom: 1px solid #DDDDDD;
+				margin-top: -1px;
+			}
+			
+			.left-sidebar-nav:after {
+				content: '';
+				display: inline-block;
+				width: 12px;
+				height: 100%;
+				float: right;
+				background: url(img/arrow-1.png) center no-repeat;
+				transition: 0.2s ease-out;
+			}
+			
+			.left-sidebar a:hover,
+			.show>.left-sidebar-nav {
+				background-color: #FFFFFF;
+			}
+			
+			.show>.left-sidebar-nav:after {
+				transform: rotate(180deg);
+			}
+		</style>
+		<script type="text/javascript">
+			$(function() {
+				$('.left-sidebar a').each(function() {
+					if($(this).next().get(0) !== undefined && $(this).next().get(0).nodeName == 'UL') {
+						$(this).addClass('left-sidebar-nav')
+					}
+				});
+				$('.left-sidebar a').click(function() {
+					$(this).parent().toggleClass('show').siblings().removeClass('show');
+				});
+			})
+		</script>
+	</body>
+
+</html>

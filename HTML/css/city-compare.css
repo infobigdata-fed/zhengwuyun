@@ -1,0 +1,744 @@
+body {
+  overflow: hidden;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+/*全屏底部提示动画*/
+.roll-d {
+  width: 24px;
+  height: 61px;
+  background: url(../img/roll-1.png) center no-repeat;
+  position: absolute;
+  left: 50%;
+  bottom: 24px;
+  margin-left: -12px;
+  z-index: 9;
+}
+.roll-d:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/roll-2.png) center no-repeat;
+  position: absolute;
+  -webkit-animation: myfirst-2 1s linear infinite;
+          animation: myfirst-2 1s linear infinite;
+}
+@-webkit-keyframes myfirst-2 {
+  from {
+    top: 0;
+    opacity: 1;
+  }
+  to {
+    top: 10px;
+    opacity: 0;
+  }
+}
+@keyframes myfirst-2 {
+  from {
+    top: 0;
+    opacity: 1;
+  }
+  to {
+    top: 10px;
+    opacity: 0;
+  }
+}
+/*第一屏底部样式*/
+.footer-city-1 .footer-city {
+  position: absolute;
+  bottom: 1.86rem;
+  width: 100%;
+}
+.footer-city-1 .footer-city .linkarea {
+  margin: 0 auto;
+  width: 700px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer-city-1 .footer-city .list-box {
+  width: 140px;
+  text-align: center;
+}
+.footer-city-1 .footer-city .list-tit {
+  margin-bottom: .15rem;
+}
+.footer-city-1 .footer-city .list-tit a {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  line-height: .28rem;
+}
+.footer-city-1 .footer-city .list-tit .icon:before {
+  content: "";
+  margin: .05rem auto;
+  display: block;
+  width: 35px;
+  height: 35px;
+}
+.footer-city-1 .footer-city .list-tit .icon-1:before {
+  background: url(../img/icon-city-3.png) center center no-repeat;
+}
+.footer-city-1 .footer-city .list-tit .icon-2:before {
+  background: url(../img/icon-city-4.png) center center no-repeat;
+}
+.footer-city-1 .footer-city .list-tit .icon-3:before {
+  background: url(../img/icon-city-5.png) center center no-repeat;
+}
+.footer-city-1 .footer-city .list-tit .icon-4:before {
+  background: url(../img/icon-city-6.png) center center no-repeat;
+}
+.footer-city-1 .footer-city .list-tit .icon-5:before {
+  background: url(../img/icon-city-7.png) center center no-repeat;
+}
+/*第二屏底部样式*/
+.footer-city-2 .footer-city {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+}
+.footer-city-2 .footer-city .linkarea {
+  margin: 0 auto;
+  width: 942px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer-city-2 .footer-city .list-box {
+  width: 180px;
+  text-align: center;
+}
+.footer-city-2 .footer-city .list-tit {
+  margin-bottom: 15px;
+}
+.footer-city-2 .footer-city .list-tit a {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  line-height: 28px;
+}
+.footer-city-2 .footer-city .list-tit .icon:before {
+  content: "";
+  margin: 5px auto;
+  display: block;
+  width: 35px;
+  height: 35px;
+}
+.footer-city-2 .footer-city .list-tit .icon-1:before {
+  background: url(../img/icon-city-3.png) center center no-repeat;
+}
+.footer-city-2 .footer-city .list-tit .icon-2:before {
+  background: url(../img/icon-city-4.png) center center no-repeat;
+}
+.footer-city-2 .footer-city .list-tit .icon-3:before {
+  background: url(../img/icon-city-5.png) center center no-repeat;
+}
+.footer-city-2 .footer-city .list-tit .icon-4:before {
+  background: url(../img/icon-city-6.png) center center no-repeat;
+}
+.footer-city-2 .footer-city .list-tit .icon-5:before {
+  background: url(../img/icon-city-7.png) center center no-repeat;
+}
+.footer-city-2 .footer-city .list-cont a {
+  font-size: 14px;
+  color: #c7ccda;
+  line-height: 24px;
+}
+/*武汉长沙对比页*/
+.city-compare-page .compare-box .icon:before {
+  background: url(../img/icon-city-1-c.png) top center no-repeat;
+}
+.city-compare-page .header-city-wrap {
+  display: none;
+}
+.city-compare-page .header-city-wrap .header-city {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background: #22293b;
+  z-index: 20;
+}
+.city-compare-page .header-city-wrap .header-city .linkarea {
+  margin: 0 auto;
+  width: 700px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.city-compare-page .header-city-wrap .header-city .list-box {
+  width: 150px;
+  text-align: center;
+}
+.city-compare-page .header-city-wrap .header-city .list-tit a {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  line-height: 60px;
+}
+.city-compare-page .header-city-wrap .header-city .list-tit a:hover {
+  color: #9ba4bd;
+}
+.city-compare-page .header-city-wrap .header-city .list-tit .icon:before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
+.city-compare-page .header-city-wrap .header-city .list-tit .icon-1:before {
+  background: url(../img/icon-city-3.png) center center no-repeat;
+}
+.city-compare-page .header-city-wrap .header-city .list-tit .icon-1:hover:before {
+  background: url(../img/icon-city-3h.png) center center no-repeat;
+}
+.city-compare-page .header-city-wrap .header-city .list-tit .icon-2:before {
+  background: url(../img/icon-city-4.png) center center no-repeat;
+}
+.city-compare-page .header-city-wrap .header-city .list-tit .icon-2:hover:before {
+  background: url(../img/icon-city-4h.png) center center no-repeat;
+}
+.city-compare-page .header-city-wrap .header-city .list-tit .icon-3:before {
+  background: url(../img/icon-city-5.png) center center no-repeat;
+}
+.city-compare-page .header-city-wrap .header-city .list-tit .icon-3:hover:before {
+  background: url(../img/icon-city-5h.png) center center no-repeat;
+}
+.city-compare-page .header-city-wrap .header-city .list-tit .icon-4:before {
+  background: url(../img/icon-city-6.png) center center no-repeat;
+}
+.city-compare-page .header-city-wrap .header-city .list-tit .icon-4:hover:before {
+  background: url(../img/icon-city-6h.png) center center no-repeat;
+}
+.city-compare-page .header-city-wrap .header-city .list-tit .icon-5:before {
+  background: url(../img/icon-city-7.png) center center no-repeat;
+}
+.city-compare-page .header-city-wrap .header-city .list-tit .icon-5:hover:before {
+  background: url(../img/icon-city-7h.png) center center no-repeat;
+}
+.city-compare-page .header-city-wrap .header-city .list-cont {
+  display: none;
+}
+.city-compare-page .header-city-wrap .compare-box {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  z-index: 50;
+  /*添加对比*/
+  width: 344px;
+  text-align: center;
+}
+.city-compare-page .header-city-wrap .compare-box .box-tit {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+}
+.city-compare-page .header-city-wrap .compare-box .icon:before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  width: 31px;
+  height: 23px;
+  vertical-align: middle;
+}
+.city-compare-page .header-city-wrap .compare-box .box-cont {
+  padding: 12px;
+  width: 344px;
+  background: #fff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.city-compare-page .header-city-wrap .compare-box .box-cont a {
+  display: block;
+  text-indent: 15px;
+  width: 100px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  color: #22293b;
+  border: 1px solid #22293b;
+  background: #fff url(../img/icon-city-2h.png) 25px center no-repeat;
+}
+.city-compare-page .header-city-wrap .compare-box .box-cont a:hover {
+  color: #fff;
+  border-color: #22293b;
+  background: #22293b url(../img/icon-city-2.png) 25px center no-repeat;
+}
+.city-compare-page .header-city-wrap .back-top {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  z-index: 50;
+  font-size: 16px;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+}
+.city-compare-page .header-city-wrap .back-top.icon:before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  width: 22px;
+  height: 20px;
+  background: url(../img/icon-city-back-top.png);
+  vertical-align: middle;
+}
+.city-compare-page .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.city-compare-page .swiper-container-scrollbar .swiper-slide {
+  height: auto;
+}
+.city-compare-page .section-1 {
+  /*第一屏*/
+  padding-top: 2.45rem;
+  width: 100%;
+  height: 10.8rem;
+  background: url(../img/city-wuhan-changsha.jpg) top center no-repeat;
+  background-size: cover;
+}
+.city-compare-page .section-1 .city-txt {
+  margin: 0 auto;
+  height: 114px;
+}
+.city-compare-page .section-1 .city-wuhan {
+  width: 231px;
+  background: url(../img/tit-wuhan.png) top center no-repeat;
+}
+.city-compare-page .section-1 .city-changsha {
+  width: 338px;
+  background: url(../img/tit-changsha.png) top center no-repeat;
+}
+.city-compare-page .section-1 .compare-box {
+  /*添加对比*/
+  margin: 0 auto;
+  width: 320px;
+  height: 2.22rem;
+  text-align: center;
+}
+.city-compare-page .section-1 .compare-box .box-tit {
+  display: inline-block;
+  margin: 1.2rem auto .14rem;
+  font-size: 16px;
+  color: #fff;
+  line-height: .22rem;
+  text-align: center;
+  cursor: pointer;
+}
+.city-compare-page .section-1 .compare-box .icon:before {
+  content: "";
+  margin: .05rem auto;
+  display: block;
+  width: 31px;
+  height: 23px;
+  background-size: auto 100%;
+}
+.city-compare-page .section-1 .compare-box .box-cont {
+  margin: 0 auto .28rem;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.city-compare-page .section-1 .compare-box .box-cont a {
+  display: block;
+  text-indent: 15px;
+  width: 100px;
+  height: .5rem;
+  font-size: 16px;
+  line-height: .5rem;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: url(../img/icon-city-2.png) 25px center no-repeat;
+}
+.city-compare-page .section-1 .compare-box .box-cont a:hover {
+  color: #333;
+  border-color: #fff;
+  background: #fff url(../img/icon-city-2h.png) 25px center no-repeat;
+}
+.city-compare-page .section-1 .intro-box-wrap {
+  margin: 0 auto;
+  width: 94%;
+  max-width: 680px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.city-compare-page .section-1 .intro-box1 {
+  position: relative;
+  padding-top: .15rem;
+  width: 200px;
+  height: 1.2rem;
+  line-height: .4rem;
+}
+.city-compare-page .section-1 .intro-box1:before,
+.city-compare-page .section-1 .intro-box1:after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  border: 1px solid #fff;
+  background: #000;
+  opacity: 0.2;
+}
+.city-compare-page .section-1 .intro-box1:before {
+  top: 0;
+  left: 5px;
+  width: 190px;
+  height: 1.2rem;
+}
+.city-compare-page .section-1 .intro-box1:after {
+  top: .05rem;
+  left: 0;
+  width: 200px;
+  height: 1.1rem;
+}
+.city-compare-page .section-1 .intro-box1 p {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  z-index: 3;
+}
+.city-compare-page .section-1 .intro-box1 p .box-tit {
+  display: block;
+  font-size: 16px;
+  line-height: .4rem;
+}
+.city-compare-page .section-1 .intro-box1 p .box-cont {
+  display: block;
+  font-size: 24px;
+  line-height: .4rem;
+}
+.city-compare-page .section-2 {
+  /*第二屏*/
+  padding-top: 1.24rem;
+  width: 100%;
+  height: 10.8rem;
+  background: #0b0f1b url(../img/about-city-bg.jpg) bottom center no-repeat;
+  background-size: cover;
+}
+.city-compare-page .section-2 .about-city-box p {
+  padding-top: .24rem;
+  width: 500px;
+  font-size: 14px;
+  color: #c7ccda;
+  line-height: .24rem;
+}
+.city-compare-page .section-2 .about-city-box .box-tit {
+  height: .67rem;
+}
+.city-compare-page .section-2 .about-wuhan-box .container {
+  background: url(../img/map-wuhan.png) center right no-repeat;
+  background-size: auto 3.45rem;
+}
+.city-compare-page .section-2 .about-wuhan-box .box-tit {
+  width: 254px;
+  background: url(../img/about-wuhan.png) top left no-repeat;
+  background-size: auto .61rem;
+}
+.city-compare-page .section-2 .about-changsha-box .container {
+  background: url(../img/map-changsha.png) bottom right no-repeat;
+  background-size: auto 100%;
+}
+.city-compare-page .section-2 .about-changsha-box .box-tit {
+  width: 307px;
+  background: url(../img/about-changsha.png) top left no-repeat;
+  background-size: auto .67rem;
+}
+.city-compare-page .box-container-wrap {
+  width: 100%;
+}
+.city-compare-page .box-container-wrap .box-container {
+  width: 50%;
+}
+.city-compare-page .box-container-wrap-1 {
+  position: relative;
+}
+.city-compare-page .box-container-wrap-1 .box-container .city-txt {
+  margin-bottom: 1.9rem;
+}
+.city-compare-page .box-container-wrap-1 .compare-box {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -160px;
+}
+.city-compare-page .box-container-wrap-1 .compare-box .vs-icon {
+  margin: 0 auto;
+  width: 94px;
+  height: 33px;
+  background: url(../img/VS.png) no-repeat;
+}
+.city-compare-page .box-container-wrap-2 {
+  margin: 0 auto;
+  width: 1080px;
+}
+.city-compare-page .box-container-wrap-2 .about-city-box {
+  padding-bottom: 2.7rem;
+}
+.city-compare-page .box-container-wrap-2 .about-wuhan-box {
+  background: url(../img/map-wuhan-c.png) center bottom no-repeat;
+  background-size: auto 2.33rem;
+}
+.city-compare-page .box-container-wrap-2 .about-changsha-box {
+  padding-left: 40px;
+  background: url(../img/map-changsha-c.png) center 98% no-repeat;
+  background-size: auto 2.29rem;
+}
+.city-compare-page .section-3,
+.city-compare-page .section-4,
+.city-compare-page .section-5,
+.city-compare-page .section-6,
+.city-compare-page .section-7,
+.city-compare-page .section-8,
+.city-compare-page .section-9,
+.city-compare-page .section-10 {
+  /*第三屏*/
+  width: 100%;
+  background: #fff;
+}
+.city-compare-page .section-3 .boxs-container .box-tit,
+.city-compare-page .section-4 .boxs-container .box-tit,
+.city-compare-page .section-5 .boxs-container .box-tit,
+.city-compare-page .section-6 .boxs-container .box-tit,
+.city-compare-page .section-7 .boxs-container .box-tit,
+.city-compare-page .section-8 .boxs-container .box-tit,
+.city-compare-page .section-9 .boxs-container .box-tit,
+.city-compare-page .section-10 .boxs-container .box-tit {
+  font-size: 30px;
+  line-height: 70px;
+  color: #333;
+  text-align: center;
+  background: #ccc;
+}
+.city-compare-page .section-3 .boxs-container .box,
+.city-compare-page .section-4 .boxs-container .box,
+.city-compare-page .section-5 .boxs-container .box,
+.city-compare-page .section-6 .boxs-container .box,
+.city-compare-page .section-7 .boxs-container .box,
+.city-compare-page .section-8 .boxs-container .box,
+.city-compare-page .section-9 .boxs-container .box,
+.city-compare-page .section-10 .boxs-container .box {
+  margin-top: 30px;
+}
+.city-compare-page .section-3 .boxs-container .chart,
+.city-compare-page .section-4 .boxs-container .chart,
+.city-compare-page .section-5 .boxs-container .chart,
+.city-compare-page .section-6 .boxs-container .chart,
+.city-compare-page .section-7 .boxs-container .chart,
+.city-compare-page .section-8 .boxs-container .chart,
+.city-compare-page .section-9 .boxs-container .chart,
+.city-compare-page .section-10 .boxs-container .chart {
+  width: 100%;
+  height: 100%;
+}
+.city-compare-page .section-3 .boxs-container .box-wrap1,
+.city-compare-page .section-4 .boxs-container .box-wrap1,
+.city-compare-page .section-5 .boxs-container .box-wrap1,
+.city-compare-page .section-6 .boxs-container .box-wrap1,
+.city-compare-page .section-7 .boxs-container .box-wrap1,
+.city-compare-page .section-8 .boxs-container .box-wrap1,
+.city-compare-page .section-9 .boxs-container .box-wrap1,
+.city-compare-page .section-10 .boxs-container .box-wrap1 {
+  padding-bottom: 58px;
+}
+.city-compare-page .section-3 .boxs-container .box-wrap1 .box,
+.city-compare-page .section-4 .boxs-container .box-wrap1 .box,
+.city-compare-page .section-5 .boxs-container .box-wrap1 .box,
+.city-compare-page .section-6 .boxs-container .box-wrap1 .box,
+.city-compare-page .section-7 .boxs-container .box-wrap1 .box,
+.city-compare-page .section-8 .boxs-container .box-wrap1 .box,
+.city-compare-page .section-9 .boxs-container .box-wrap1 .box,
+.city-compare-page .section-10 .boxs-container .box-wrap1 .box {
+  width: 50%;
+  padding: 0 5%;
+  height: 610px;
+  text-align: center;
+}
+.city-compare-page .section-3 .boxs-container .box-wrap1,
+.city-compare-page .section-4 .boxs-container .box-wrap1,
+.city-compare-page .section-5 .boxs-container .box-wrap1,
+.city-compare-page .section-6 .boxs-container .box-wrap1,
+.city-compare-page .section-7 .boxs-container .box-wrap1,
+.city-compare-page .section-8 .boxs-container .box-wrap1,
+.city-compare-page .section-9 .boxs-container .box-wrap1,
+.city-compare-page .section-10 .boxs-container .box-wrap1 {
+  border-bottom: 2px solid #ccc;
+}
+.city-compare-page .section-3 .boxs-container .box-wrap2 .box-w,
+.city-compare-page .section-4 .boxs-container .box-wrap2 .box-w,
+.city-compare-page .section-5 .boxs-container .box-wrap2 .box-w,
+.city-compare-page .section-6 .boxs-container .box-wrap2 .box-w,
+.city-compare-page .section-7 .boxs-container .box-wrap2 .box-w,
+.city-compare-page .section-8 .boxs-container .box-wrap2 .box-w,
+.city-compare-page .section-9 .boxs-container .box-wrap2 .box-w,
+.city-compare-page .section-10 .boxs-container .box-wrap2 .box-w,
+.city-compare-page .section-3 .boxs-container .box-wrap3 .box-w,
+.city-compare-page .section-4 .boxs-container .box-wrap3 .box-w,
+.city-compare-page .section-5 .boxs-container .box-wrap3 .box-w,
+.city-compare-page .section-6 .boxs-container .box-wrap3 .box-w,
+.city-compare-page .section-7 .boxs-container .box-wrap3 .box-w,
+.city-compare-page .section-8 .boxs-container .box-wrap3 .box-w,
+.city-compare-page .section-9 .boxs-container .box-wrap3 .box-w,
+.city-compare-page .section-10 .boxs-container .box-wrap3 .box-w,
+.city-compare-page .section-3 .boxs-container .box-wrap4 .box-w,
+.city-compare-page .section-4 .boxs-container .box-wrap4 .box-w,
+.city-compare-page .section-5 .boxs-container .box-wrap4 .box-w,
+.city-compare-page .section-6 .boxs-container .box-wrap4 .box-w,
+.city-compare-page .section-7 .boxs-container .box-wrap4 .box-w,
+.city-compare-page .section-8 .boxs-container .box-wrap4 .box-w,
+.city-compare-page .section-9 .boxs-container .box-wrap4 .box-w,
+.city-compare-page .section-10 .boxs-container .box-wrap4 .box-w {
+  width: 50%;
+}
+.city-compare-page .section-3 .boxs-container .box-wrap2 .box-w-1,
+.city-compare-page .section-4 .boxs-container .box-wrap2 .box-w-1,
+.city-compare-page .section-5 .boxs-container .box-wrap2 .box-w-1,
+.city-compare-page .section-6 .boxs-container .box-wrap2 .box-w-1,
+.city-compare-page .section-7 .boxs-container .box-wrap2 .box-w-1,
+.city-compare-page .section-8 .boxs-container .box-wrap2 .box-w-1,
+.city-compare-page .section-9 .boxs-container .box-wrap2 .box-w-1,
+.city-compare-page .section-10 .boxs-container .box-wrap2 .box-w-1,
+.city-compare-page .section-3 .boxs-container .box-wrap3 .box-w-1,
+.city-compare-page .section-4 .boxs-container .box-wrap3 .box-w-1,
+.city-compare-page .section-5 .boxs-container .box-wrap3 .box-w-1,
+.city-compare-page .section-6 .boxs-container .box-wrap3 .box-w-1,
+.city-compare-page .section-7 .boxs-container .box-wrap3 .box-w-1,
+.city-compare-page .section-8 .boxs-container .box-wrap3 .box-w-1,
+.city-compare-page .section-9 .boxs-container .box-wrap3 .box-w-1,
+.city-compare-page .section-10 .boxs-container .box-wrap3 .box-w-1,
+.city-compare-page .section-3 .boxs-container .box-wrap4 .box-w-1,
+.city-compare-page .section-4 .boxs-container .box-wrap4 .box-w-1,
+.city-compare-page .section-5 .boxs-container .box-wrap4 .box-w-1,
+.city-compare-page .section-6 .boxs-container .box-wrap4 .box-w-1,
+.city-compare-page .section-7 .boxs-container .box-wrap4 .box-w-1,
+.city-compare-page .section-8 .boxs-container .box-wrap4 .box-w-1,
+.city-compare-page .section-9 .boxs-container .box-wrap4 .box-w-1,
+.city-compare-page .section-10 .boxs-container .box-wrap4 .box-w-1 {
+  border-right: 2px solid #ccc;
+}
+.city-compare-page .section-3 .boxs-container .box-wrap2 .box-tit,
+.city-compare-page .section-4 .boxs-container .box-wrap2 .box-tit,
+.city-compare-page .section-5 .boxs-container .box-wrap2 .box-tit,
+.city-compare-page .section-6 .boxs-container .box-wrap2 .box-tit,
+.city-compare-page .section-7 .boxs-container .box-wrap2 .box-tit,
+.city-compare-page .section-8 .boxs-container .box-wrap2 .box-tit,
+.city-compare-page .section-9 .boxs-container .box-wrap2 .box-tit,
+.city-compare-page .section-10 .boxs-container .box-wrap2 .box-tit,
+.city-compare-page .section-3 .boxs-container .box-wrap3 .box-tit,
+.city-compare-page .section-4 .boxs-container .box-wrap3 .box-tit,
+.city-compare-page .section-5 .boxs-container .box-wrap3 .box-tit,
+.city-compare-page .section-6 .boxs-container .box-wrap3 .box-tit,
+.city-compare-page .section-7 .boxs-container .box-wrap3 .box-tit,
+.city-compare-page .section-8 .boxs-container .box-wrap3 .box-tit,
+.city-compare-page .section-9 .boxs-container .box-wrap3 .box-tit,
+.city-compare-page .section-10 .boxs-container .box-wrap3 .box-tit,
+.city-compare-page .section-3 .boxs-container .box-wrap4 .box-tit,
+.city-compare-page .section-4 .boxs-container .box-wrap4 .box-tit,
+.city-compare-page .section-5 .boxs-container .box-wrap4 .box-tit,
+.city-compare-page .section-6 .boxs-container .box-wrap4 .box-tit,
+.city-compare-page .section-7 .boxs-container .box-wrap4 .box-tit,
+.city-compare-page .section-8 .boxs-container .box-wrap4 .box-tit,
+.city-compare-page .section-9 .boxs-container .box-wrap4 .box-tit,
+.city-compare-page .section-10 .boxs-container .box-wrap4 .box-tit {
+  border-top: 2px solid #ccc;
+}
+.city-compare-page .section-3 .boxs-container .box-wrap2 .box,
+.city-compare-page .section-4 .boxs-container .box-wrap2 .box,
+.city-compare-page .section-5 .boxs-container .box-wrap2 .box,
+.city-compare-page .section-6 .boxs-container .box-wrap2 .box,
+.city-compare-page .section-7 .boxs-container .box-wrap2 .box,
+.city-compare-page .section-8 .boxs-container .box-wrap2 .box,
+.city-compare-page .section-9 .boxs-container .box-wrap2 .box,
+.city-compare-page .section-10 .boxs-container .box-wrap2 .box,
+.city-compare-page .section-3 .boxs-container .box-wrap3 .box,
+.city-compare-page .section-4 .boxs-container .box-wrap3 .box,
+.city-compare-page .section-5 .boxs-container .box-wrap3 .box,
+.city-compare-page .section-6 .boxs-container .box-wrap3 .box,
+.city-compare-page .section-7 .boxs-container .box-wrap3 .box,
+.city-compare-page .section-8 .boxs-container .box-wrap3 .box,
+.city-compare-page .section-9 .boxs-container .box-wrap3 .box,
+.city-compare-page .section-10 .boxs-container .box-wrap3 .box,
+.city-compare-page .section-3 .boxs-container .box-wrap4 .box,
+.city-compare-page .section-4 .boxs-container .box-wrap4 .box,
+.city-compare-page .section-5 .boxs-container .box-wrap4 .box,
+.city-compare-page .section-6 .boxs-container .box-wrap4 .box,
+.city-compare-page .section-7 .boxs-container .box-wrap4 .box,
+.city-compare-page .section-8 .boxs-container .box-wrap4 .box,
+.city-compare-page .section-9 .boxs-container .box-wrap4 .box,
+.city-compare-page .section-10 .boxs-container .box-wrap4 .box {
+  margin-bottom: 70px;
+  text-align: center;
+}
+.city-compare-page .section-3 .boxs-container .box-wrap2 .box,
+.city-compare-page .section-4 .boxs-container .box-wrap2 .box,
+.city-compare-page .section-5 .boxs-container .box-wrap2 .box,
+.city-compare-page .section-6 .boxs-container .box-wrap2 .box,
+.city-compare-page .section-7 .boxs-container .box-wrap2 .box,
+.city-compare-page .section-8 .boxs-container .box-wrap2 .box,
+.city-compare-page .section-9 .boxs-container .box-wrap2 .box,
+.city-compare-page .section-10 .boxs-container .box-wrap2 .box {
+  padding: 0 13%;
+}
+.city-compare-page .section-3 .boxs-container .box-wrap3 .box,
+.city-compare-page .section-4 .boxs-container .box-wrap3 .box,
+.city-compare-page .section-5 .boxs-container .box-wrap3 .box,
+.city-compare-page .section-6 .boxs-container .box-wrap3 .box,
+.city-compare-page .section-7 .boxs-container .box-wrap3 .box,
+.city-compare-page .section-8 .boxs-container .box-wrap3 .box,
+.city-compare-page .section-9 .boxs-container .box-wrap3 .box,
+.city-compare-page .section-10 .boxs-container .box-wrap3 .box {
+  padding: 0 13%;
+}
+.city-compare-page .section-3 .boxs-container .box-wrap4 .box,
+.city-compare-page .section-4 .boxs-container .box-wrap4 .box,
+.city-compare-page .section-5 .boxs-container .box-wrap4 .box,
+.city-compare-page .section-6 .boxs-container .box-wrap4 .box,
+.city-compare-page .section-7 .boxs-container .box-wrap4 .box,
+.city-compare-page .section-8 .boxs-container .box-wrap4 .box,
+.city-compare-page .section-9 .boxs-container .box-wrap4 .box,
+.city-compare-page .section-10 .boxs-container .box-wrap4 .box {
+  padding: 0 13%;
+}
+.city-compare-page .section-3 .boxs-container .box-tit {
+  margin-bottom: 25px;
+}
+.city-compare-page .section-3,
+.city-compare-page .section-6,
+.city-compare-page .section-8,
+.city-compare-page .section-9 {
+  height: auto!important;
+}
+.city-compare-page .section-3.swiper-slide-active,
+.city-compare-page .section-6.swiper-slide-active,
+.city-compare-page .section-8.swiper-slide-active,
+.city-compare-page .section-9.swiper-slide-active {
+  padding-top: 60px;
+  height: auto!important;
+}
+.city-compare-page .section-4,
+.city-compare-page .section-5,
+.city-compare-page .section-7 {
+  /*全屏*/
+  height: 100%!important;
+}
+.city-compare-page .section-4.swiper-slide-active,
+.city-compare-page .section-5.swiper-slide-active,
+.city-compare-page .section-7.swiper-slide-active {
+  padding-top: 60px;
+  height: 100%!important;
+}
+.city-compare-page .section-10 {
+  height: 6rem!important;
+}

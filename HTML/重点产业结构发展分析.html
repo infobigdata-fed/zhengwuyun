@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			var winResizeFn = function() {
+				document.getElementsByTagName('html')[0].style.fontSize = document.documentElement.clientHeight / 10.80 + "px";
+			};
+			winResizeFn();
+			window.onresize = winResizeFn;
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/mbase.css" />
+		<link rel="stylesheet" type="text/css" href="mCustomScrollbar/jquery.mCustomScrollbar.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/structural-analysis.css" />
+
+	</head>
+
+	<body class="structural-analysis-body header-light">
+		<header class="header-wrap">
+			<div class="header">
+				<a class="logo-1 left vertical" href="index.html"></a>
+				<div class="loginBar-1 right">
+					<div class="list-box vertical">
+						<div class="tx-box left"></div>
+						<div class="list-tit">江城工商</div>
+						<div class="list-cont">
+							<ii></ii>
+							<div class="list-items">
+								<a href="">个人中心</a>
+								<a href="">退出</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header-1-nav right">
+					<ul>
+						<li>
+							<div class="list-box">
+								<div class="list-tit">信息门户</div>
+								<div class="list-cont">
+									<ii></ii>
+									<div class="list-items">
+										<a href="">通知公告</a>
+										<a href="">政务信息</a>
+										<a href="">业务信息</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-box">
+								<div class="list-tit">工作交流</div>
+								<div class="list-cont">
+									<ii></ii>
+									<div class="list-items">
+										<a href="">知识云</a>
+										<a href="">视频会议</a>
+										<a href="">在线沟通</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-box">
+								<div class="list-tit">业务协同</div>
+								<div class="list-cont">
+									<ii></ii>
+									<div class="list-items">
+										<a href="">12315消费维权协作</a>
+										<a href="">注册登记协作</a>
+										<a href="">商标保护协作</a>
+										<a href="">公平交易执法协作</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-box">
+								<div class="list-tit">数据分析</div>
+								<div class="list-cont">
+									<ii></ii>
+									<div class="list-items">
+										<a href="">跨四市流动数据融合平台</a>
+										<a href="">新增主体户数对比分析</a>
+										<a href="">市场主体产业类型分析</a>
+										<a href="">市场主体活跃度分析</a>
+										<a href="">重点产业结构发展分析</a>
+										<a href="">企业年龄结构分析</a>
+										<a href="">企业及投资人族谱分析</a>
+										<a href="">四城市市场主体迁移分析</a>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="header-search-box right">
+					<div class="search-icon"></div>
+					<form class="nav_1_form vertical" style="display:none;">
+						<input type="text" value="" placeholder="" />
+						<input type="submit" value="" />
+					</form>
+				</div>
+			</div>
+		</header>
+		<wrap class="structural-analysis-w">
+			<section class="section-1">
+				<h2>重点产业结构发展分析</h2>
+				<div class="analysis-select">
+					<select>
+						<option>农、林、牧、渔业</option>
+						<option>农、林、牧、渔业</option>
+						<option>农、林、牧、渔业</option>
+					</select>
+				</div>
+				<div class="analysis-nav center">
+					<a id="involving-enterprises" class="active">涉及企业</a>
+					<a id="industry-categories">行业大类</a>
+					<a id="industry-changes">行业变化</a>
+				</div>
+				<p class="analysis-p">全国涉农企业数量 <span>438,858</span> 户,比同期企业数量增长 <span>30.13%</span></p>
+			</section>
+			<section class="section-2">
+				<div class="circle-div">
+					<p class="circle-p">圆的大小代表企业数量的多少：</p>
+					<div class="circle">
+						<span>52,712户<br /><i></i></span>
+						<span>15,814户<br /><i></i></span>
+						<span>7,028户<br /><i></i></span>
+					</div>
+					<div class="circle-color">
+						<p>颜色代表同期增长幅度：</p>
+						<div class="circle-color-nav-1">
+							<span style="background-color: #ffcd38;"></span>
+							<span style="background-color: #ffe869;"></span>
+							<span style="background-color: #d7fbe8;"></span>
+							<span style="background-color: #9df3c4;"></span>
+							<span style="background-color: #62d2a2;"></span>
+							<span style="background-color: #1fab89;"></span>
+						</div>
+						<div class="circle-color-nav-2">
+							<span style="margin-left: 30px;">&nbsp;&nbsp;-50%</span>
+							<span>0%</span>
+							<span>50%</span>
+							<span>&nbsp;&nbsp;100%</span>
+							<span>&nbsp;&nbsp;200%</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section-main active">
+				<style type="text/css">
+					.active circle {
+						transition: all 0.2s;
+					}
+					
+					svg circle {
+						stroke: black;
+						stroke-width: 0.5;
+						stroke: #296556;
+					}
+					
+					svg circle:hover {
+						stroke: black;
+						stroke-width: 3;
+						stroke: #296556;
+					}
+					
+					.cls-1 {
+						fill: #fff;
+						fill-opacity: 0.9;
+						filter: url(#filter);
+					}
+					
+					.cls-2,
+					.cls-5 {
+						font-size: 18px;
+					}
+					
+					.cls-2,
+					.cls-4,
+					.cls-5 {
+						fill: #333;
+						text-anchor: middle;
+					}
+					
+					.cls-3 {
+						fill: none;
+						stroke: #ccc;
+						stroke-width: 1px;
+						stroke-dasharray: 4 2;
+					}
+					
+					.cls-4 {
+						font-size: 14px;
+					}
+					
+					.cls-6 {
+						fill: #1fab89;
+					}
+					
+					#reminder {
+						display: none;
+					}
+					
+					#reminder.active {
+						display: block;
+					}
+					
+					.line-1 {
+						fill: none;
+						stroke: #ccc;
+						stroke-width: 1px;
+						stroke-dasharray: 4 2;
+						fill-rule: evenodd;
+					}
+					
+					.line-2 {
+						font-size: 22px;
+						fill: #333;
+						text-anchor: middle;
+					}
+					
+					.line-3 {
+						font-size: 20px;
+						fill: #333;
+						text-anchor: middle;
+					}
+					
+					.bg-cls-2,
+					.bg-cls-3 {
+						fill: none;
+						stroke-width: 1px;
+					}
+					
+					.bg-cls-2 {
+						stroke: #ccc;
+						stroke-dasharray: 4 2;
+					}
+					
+					.bg-cls-3 {
+						stroke: #999;
+					}
+					
+					.bg-cls-4,
+					.bg-cls-6 {
+						font-size: 14px;
+						fill: #666;
+					}
+					
+					.bg-cls-4 {
+						text-anchor: middle;
+					}
+					
+					.bg-cls-5 {
+						font-size: 12px;
+						text-anchor: middle;
+					}
+					
+					.bg-cls-6 {
+						text-anchor: end;
+					}
+				</style>
+				<svg id="svg-main" viewBox="0 0 1400 800">
+					<g>
+						<g id="Line">
+							<path id="_1" data-name="1" class="line-1" d="M0,0V500" transform="translate(349.5 100)"></path>
+							<path id="_2" data-name="2" class="line-1" d="M0,0V500" transform="translate(582.5 100)"></path>
+							<path id="_3" data-name="3" class="line-1" d="M0,0V500" transform="translate(815.5 100)"></path>
+							<path id="_4" data-name="4" class="line-1" d="M0,0V500" transform="translate(1048.5 100)"></path>
+						</g>
+						<g id="Name">
+							<g id="Name-1" transform="translate(349.5 100)">
+								<foreignobject x="-116.5" y="-20" width="233" height="200" requiredExtensions="http://www.w3.org/1999/xhtml">
+									<div xmlns="http://www.w3.org/1999/xhtml">
+										<div class="line-2" style="width: 233px; text-align: center;">火狐显示</div>
+										<div class="line-3" style="width: 233px; text-align: center;">1,082 户</div>
+									</div>
+								</foreignobject>
+							</g>
+							<g id="Name-2" transform="translate(582.5 100)">
+								<foreignobject x="-116.5" y="-20" width="233" height="200">
+									<div xmlns="http://www.w3.org/1999/xhtml">
+										<div class="line-2" style="width: 233px; text-align: center;">谷歌显示</div>
+										<div class="line-3" style="width: 233px; text-align: center;">1,082 户</div>
+									</div>
+								</foreignobject>
+							</g>
+							<g id="Name-3" transform="translate(815.5 100)">
+								<foreignobject x="-116.5" y="-20">
+									<div class="line-2" style="width: 233px; text-align: center;">农业农业农业农业农业农业农业</div>
+									<div class="line-3" style="width: 233px; text-align: center;">1,082 户</div>
+								</foreignobject>
+								<rect width="1" height="1" x="0" y="0" />
+								</text>
+							</g>
+							<g id="Name-4" transform="translate(1048.5 100)">
+								<text class="line-2" x="-116.5" y="0">渔业
+								<tspan class="line-3" dy="16.8" x="-116.5">493 户</tspan>
+							</text>
+							</g>
+							<g id="Name-5" transform="translate(1271.5 100)">
+								<text class="line-2" x="-116.5" y="0">农林牧渔服务业
+								<tspan class="line-3" dy="16.8" x="-116.5">1,082 户</tspan>
+							</text>
+							</g>
+						</g>
+					</g>
+					<g id="bg-3" transform="translate(115 78)">
+						<g id="bg-rect" transform="translate(50 4)">
+							<rect width="70" height="480" x="0" y="0" fill="#f1f2f3" />
+							<rect width="70" height="480" x="70" y="0" fill="#ffffff" />
+							<rect width="70" height="480" x="140" y="0" fill="#f1f2f3" />
+							<rect width="70" height="480" x="210" y="0" fill="#ffffff" />
+							<rect width="70" height="480" x="280" y="0" fill="#f1f2f3" />
+							<rect width="70" height="480" x="350" y="0" fill="#ffffff" />
+							<rect width="70" height="480" x="420" y="0" fill="#f1f2f3" />
+							<rect width="70" height="480" x="490" y="0" fill="#ffffff" />
+							<rect width="70" height="480" x="560" y="0" fill="#f1f2f3" />
+							<rect width="70" height="480" x="630" y="0" fill="#ffffff" />
+							<rect width="70" height="480" x="700" y="0" fill="#f1f2f3" />
+							<rect width="70" height="480" x="770" y="0" fill="#ffffff" />
+							<rect width="70" height="480" x="840" y="0" fill="#f1f2f3" />
+							<rect width="70" height="480" x="910" y="0" fill="#ffffff" />
+							<rect width="70" height="480" x="980" y="0" fill="#f1f2f3" />
+							<rect width="70" height="480" x="1050" y="0" fill="#f9f9f9" />
+						</g>
+						<g id="bg-x" transform="translate(85 500)">
+							<g transform="translate(0 0)">
+								<text class="bg-cls-4" x="0" y="0">农业</text>
+								<text class="bg-cls-5">
+								<tspan x="0" y="20">蔬菜、食用菌</tspan>
+								<tspan x="0" y="40">及园艺作物种植</tspan>
+							</text>
+							</g>
+							<g transform="translate(70 0)">
+								<text class="bg-cls-4" x="0" y="0">畜牧业</text>
+								<text class="bg-cls-5">
+								<tspan x="0" y="20">牲畜饲养</tspan>
+							</text>
+							</g>
+							<g transform="translate(140 0)">
+								<text class="bg-cls-4" x="0" y="0">农业</text>
+								<text class="bg-cls-5">
+								<tspan x="0" y="20">其他农业</tspan>
+							</text>
+							</g>
+							<g transform="translate(210 0)">
+								<text class="bg-cls-4" x="0" y="0">农业</text>
+								<text class="bg-cls-5">
+								<tspan x="0" y="20">谷物种植</tspan>
+							</text>
+							</g>
+							<g transform="translate(280 0)">
+								<text class="bg-cls-4" x="0" y="0">农林牧
+								<tspan x="0" y="20">渔服务业</tspan>
+							</text>
+								<text class="bg-cls-5">
+								<tspan x="0" y="40">农业服务业</tspan>
+							</text>
+							</g>
+							<g transform="translate(350 0)">
+								<text class="bg-cls-4" x="0" y="0">农业</text>
+								<text class="bg-cls-5">
+								<tspan x="0" y="20">水果种植</tspan>
+							</text>
+							</g>
+							<g transform="translate(420 0)">
+								<text class="bg-cls-4" x="0" y="0">渔业</text>
+								<text class="bg-cls-5">
+								<tspan x="0" y="20">水产养殖</tspan>
+							</text>
+							</g>
+							<g transform="translate(490 0)">
+								<text class="bg-cls-4" x="0" y="0">畜牧业</text>
+								<text class="bg-cls-5">
+								<tspan x="0" y="20">家禽饲养</tspan>
+							</text>
+							</g>
+							<g transform="translate(560 0)">
+								<text class="bg-cls-4" x="0" y="0">农业</text>
+								<text class="bg-cls-5">
+								<tspan x="0" y="20">林木育种和育苗</tspan>
+							</text>
+							</g>
+							<g transform="translate(630 0)">
+								<text class="bg-cls-4" x="0" y="0">林业</text>
+								<text class="bg-cls-5">
+								<tspan x="0" y="20">坚果、含</tspan>
+								<tspan x="0" y="40">油果、香料</tspan>
+								<tspan x="0" y="60">和饮料作</tspan>
+								<tspan x="0" y="80">物种植</tspan>
+							</text>
+							</g>
+							<g transform="translate(700 0)">
+								<text class="bg-cls-4" x="0" y="0">农业</text>
+								<text class="bg-cls-5">
+								<tspan x="0" y="20">豆类、油料</tspan>
+								<tspan x="0" y="40">和薯类</tspan>
+								<tspan x="0" y="60">种植</tspan>
+							</text>
+							</g>
+							<g transform="translate(770 0)">
+								<text class="bg-cls-4" x="0" y="0">农业</text>
+								<text class="bg-cls-5">
+								<tspan x="0" y="20">棉、麻，糖</tspan>
+								<tspan x="0" y="40">和烟草</tspan>
+								<tspan x="0" y="60">种植</tspan>
+							</text>
+							</g>
+							<g transform="translate(840 0)">
+								<text class="bg-cls-4" x="0" y="0">渔业</text>
+								<text class="bg-cls-5">
+								<tspan x="0" y="20">水产捕捞</tspan>
+							</text>
+							</g>
+							<g transform="translate(910 0)">
+								<text class="bg-cls-4" x="0" y="0">农林牧
+								<tspan x="0" y="20">渔服务业</tspan>
+							</text>
+								<text class="bg-cls-5">
+								<tspan x="0" y="40">林业服</tspan>
+								<tspan x="0" y="60">务业</tspan>
+							</text>
+							</g>
+							<g transform="translate(980 0)">
+								<text class="bg-cls-4" x="0" y="0">林业</text>
+								<text class="bg-cls-5">
+								<tspan x="0" y="20">林产品</tspan>
+								<tspan x="0" y="40">采集</tspan>
+							</text>
+							</g>
+							<g transform="translate(1050 0)">
+								<text class="bg-cls-4" x="0" y="0">林业</text>
+								<text class="bg-cls-5">
+								<tspan x="0" y="20">木材和</tspan>
+								<tspan x="0" y="40">竹材采运</tspan>
+							</text>
+							</g>
+						</g>
+						<g id="bg-line">
+							<path class="bg-cls-2" d="M0,0H1130" transform="translate(50 482)" />
+							<path class="bg-cls-2" d="M0,0H1130" transform="translate(50 402)" />
+							<path class="bg-cls-3" d="M0,0H1130" transform="translate(50 322)" />
+							<path class="bg-cls-2" d="M0,0H1130" transform="translate(50 242)" />
+							<path class="bg-cls-2" d="M0,0H1130" transform="translate(50 162)" />
+							<path class="bg-cls-2" d="M0,0H1130" transform="translate(50 4)" />
+						</g>
+						<g id="gb-y">
+							<text class="bg-cls-6" x="39.769" y="482">-100%</text>
+							<text class="bg-cls-6" x="39.769" y="402">-50%</text>
+							<text class="bg-cls-6" x="39.769" y="322">0%</text>
+							<text class="bg-cls-6" x="39.769" y="242">50%</text>
+							<text class="bg-cls-6" x="39.769" y="162">100%</text>
+							<text class="bg-cls-6" x="39.769" y="14">200%</text>
+						</g>
+					</g>
+
+					<filter id="filter" x="1325" y="411" width="278" height="169" filterUnits="userSpaceOnUse">
+						<feOffset result="offset" dy="8" in="SourceAlpha" />
+						<feGaussianBlur result="blur" stdDeviation="3.873" />
+						<feFlood result="flood" flood-opacity="0.1" />
+						<feComposite result="composite" operator="in" in2="blur" />
+						<feBlend result="blend" in="SourceGraphic" />
+					</filter>
+					<g id="reminder" transform="translate(0 0)">
+						<path xmlns="http://www.w3.org/2000/svg" id="BG" class="cls-1" d="M1353,417h230a5,5,0,0,1,5,5V552a5,5,0,0,1-5,5H1353a5,5,0,0,1-5-5V422A5,5,0,0,1,1353,417Zm1,57.984,10,10a2.718,2.718,0,0,1,0,4l-10,10a2.715,2.715,0,0,1-4,0l-10-10a2.718,2.718,0,0,1,0-4l10-10A2.716,2.716,0,0,1,1354,474.984Z" transform="translate(-1325 -411)" />
+						<text id="reminder-1" class="cls-2" x="138.493" y="45.28">农业</text>
+						<path id="Line" class="cls-3" d="M1364,466h200" transform="translate(-1325 -411)" />
+						<text id="reminder-2" class="cls-4" x="138.493" y="75.282">水稻种植</text>
+						<text class="cls-5" x="138.841" y="114.465">
+						<tspan id="reminder-3">14,483 户</tspan>
+						<tspan id="reminder-4" class="cls-6">125.46%</tspan>
+					</text>
+					</g>
+				</svg>
+			</section>
+			<section class="section-right">
+				<a>2016</a>
+				<a class="active">2015</a>
+				<a>2014</a>
+				<a>2013</a>
+				<a>2012</a>
+				<a>2011</a>
+				<a>2010</a>
+				<a>2009</a>
+				<a>2008</a>
+				<a>2007</a>
+				<a>2006</a>
+			</section>
+		</wrap>
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script src="mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script type="text/javascript" src="js/mbase.js"></script>
+		<script type="text/javascript" src="js/mbasebind.js"></script>
+		<script src="js/d3.v4.min.js" type="text/javascript"></script>
+		<script src="js/structural-analysis.js" type="text/javascript"></script>
+	</body>
+
+</html>

@@ -1,0 +1,158 @@
+/*分析页面公用样式*/
+.analys-page {
+  background-image: -webkit-radial-gradient(50% 50%, circle closest-side, #ffffff 0%, #eff3f6 100%);
+  background-image: -ms-radial-gradient(50% 50%, circle closest-side, #ffffff 0%, #eff3f6 100%);
+}
+.analys-page .main-wrap {
+  width: 100%;
+  height: 10.80rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
+/*企业年龄结构分析页面*/
+.enterprise-age-structure-analys-page .chart-tit {
+  padding-left: 80px;
+}
+.enterprise-age-structure-analys-page .chart-tit .tit-txt {
+  margin-top: 1.3rem;
+  font-size: 36px;
+  color: #f03;
+  line-height: .82rem;
+}
+.enterprise-age-structure-analys-page .chart-box {
+  margin: 0 auto;
+  padding-bottom: .89rem;
+  width: 92%;
+  height: calc(100% - 2.11rem);
+}
+.enterprise-age-structure-analys-page .chart-box img {
+  width: 100%;
+  height: 100%;
+}
+/*市场主体产业类型分析页面*/
+.market-main-industry-analys-page .chart-tit {
+  margin-top: .8rem;
+}
+.market-main-industry-analys-page .chart-tit .tit-txt {
+  margin-bottom: .24rem;
+  font-size: 36px;
+  color: #f03;
+  line-height: .64rem;
+}
+.market-main-industry-analys-page .chart-tit .tab-bar {
+  margin: 0 auto;
+  width: 370px;
+}
+.market-main-industry-analys-page .chart-tit .tab-bar a {
+  position: relative;
+  float: left;
+  display: iblock;
+  padding-left: 95px;
+  text-align: right;
+  padding-bottom: 4px;
+}
+.market-main-industry-analys-page .chart-tit .tab-bar a span {
+  display: block;
+  width: 60px;
+  font-size: 16px;
+  line-height: 38px;
+  color: #666;
+  text-align: center;
+}
+.market-main-industry-analys-page .chart-tit .tab-bar a:before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 22px;
+  left: 0;
+  width: 95px;
+  height: 1px;
+  background: #bfbfbf;
+  line-height: 0;
+}
+.market-main-industry-analys-page .chart-tit .tab-bar a:after {
+  position: absolute;
+  content: "";
+  display: block;
+  bottom: 0;
+  right: 22px;
+  width: 14px;
+  height: 4px;
+  background: transparent;
+  line-height: 0;
+}
+.market-main-industry-analys-page .chart-tit .tab-bar a:first-child {
+  padding-left: 0;
+}
+.market-main-industry-analys-page .chart-tit .tab-bar a:first-child:before {
+  width: 0;
+}
+.market-main-industry-analys-page .chart-tit .tab-bar a.a-on,
+.market-main-industry-analys-page .chart-tit .tab-bar a:hover {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+.market-main-industry-analys-page .chart-tit .tab-bar a.a-on span,
+.market-main-industry-analys-page .chart-tit .tab-bar a:hover span {
+  -webkit-transform: scale(1.12);
+          transform: scale(1.12);
+  color: #f03;
+}
+.market-main-industry-analys-page .chart-tit .tab-bar a.a-on:after,
+.market-main-industry-analys-page .chart-tit .tab-bar a:hover:after {
+  background: #f03;
+}
+.market-main-industry-analys-page .chart-box {
+  margin: 0 auto;
+  width: 92%;
+  height: calc(100% - 2.89rem);
+}
+.market-main-industry-analys-page .chart-box img {
+  width: 100%;
+  height: 100%;
+}
+/*市场主体活跃度分析*/
+.market-main-event-analys-page .header-1 {
+  display: block;
+}
+.market-main-event-analys-page .chart-tit {
+  margin-top: .8rem;
+}
+.market-main-event-analys-page .chart-tit .tit-txt {
+  margin-bottom: .46rem;
+  font-size: 36px;
+  color: #f03;
+  line-height: .68rem;
+}
+.market-main-event-analys-page .chart-select {
+  /*下拉选择*/
+  position: absolute;
+  top: 1.3rem;
+  left: 80px;
+}
+.market-main-event-analys-page .chart-select .Mselect {
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  text-indent: 20px;
+}
+.market-main-event-analys-page .chart-select .Mchecked {
+  font-size: 16px;
+  color: #333;
+  border: none;
+  box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.market-main-event-analys-page .chart-select .MoptionBox {
+  border-top: 1px solid #e5e5e5;
+}
+.market-main-event-analys-page .chart-box {
+  margin: 0 auto;
+  width: 92%;
+  height: calc(100% - 1.94rem);
+}
+.market-main-event-analys-page .chart-box img {
+  width: 100%;
+  height: 100%;
+}

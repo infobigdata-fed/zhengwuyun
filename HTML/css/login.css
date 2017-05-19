@@ -1,0 +1,141 @@
+@charse "utf-8"
+/*CSS Document*/
+
+.xxxxxx {
+  width: 0;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+body {
+  overflow: hidden;
+}
+.login {
+  width: 100%;
+  height: 100%;
+  background: url(../img/login.jpg) center no-repeat;
+  background-size: cover;
+}
+.login .section {
+  width: 550px;
+  height: 100%;
+  position: absolute;
+  left: 36%;
+  top: 0;
+  margin-left: -275px;
+}
+.login .content-1 {
+  width: 100%;
+  height: 460px;
+}
+.login .content-1 h2 {
+  line-height: 1;
+  font-size: 36px;
+  color: #fcf6ed;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.login .content-1 div {
+  width: 344px;
+  margin: 0 auto 20px;
+  font-size: 16px;
+  overflow: hidden;
+}
+.login .content-1 .w344 {
+  width: 344px;
+}
+.login .content-1 .w210 {
+  width: 210px;
+}
+.login .content-1 input[type="text"] {
+  height: 56px;
+  line-height: 54px;
+  padding: 0 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(44, 72, 121, 0.302);
+  color: #5d6ea2;
+  outline: none;
+  float: left;
+}
+.login .content-1 input[type="text"]::-webkit-input-placeholder {
+  color: #445075;
+}
+.login .content-1 input[type="text"]:-moz-placeholder {
+  color: #445075;
+}
+.login .content-1 input[type="text"]::-moz-placeholder {
+  color: #445075;
+}
+.login .content-1 input[type="text"]:-ms-input-placeholder {
+  color: #445075;
+}
+.login .content-1 input[type="text"]:focus {
+  border: 1px solid #187ba3;
+}
+.login .content-1 a {
+  width: 120px;
+  height: 56px;
+  border-radius: 5px;
+  float: right;
+  font-size: 16px;
+  line-height: 56px;
+  text-align: center;
+  color: #fffefe;
+  background-color: #bdbdbd;
+}
+.login .content-1 a:hover {
+  background-color: #ababab;
+}
+.login .content-1 a img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.login .content-1 input[type="submit"] {
+  height: 56px;
+  line-height: 54px;
+  padding: 0 1em;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #FFFFFF;
+  outline: none;
+  float: left;
+  background-image: -webkit-linear-gradient(90deg, #ee0033 0%, #ff0033 100%);
+  background-image: -ms-linear-gradient(90deg, #ee0033 0%, #ff0033 100%);
+  cursor: pointer;
+}
+.login .copyright{
+  position: fixed;
+  bottom: 32px;
+  width: 100%;
+  font-size: 12px;  
+  line-height: .2rem;
+  text-align: center;
+  color: #3c5373;
+}
+.login-admin{
+  background-image: url(../img/login-admin.jpg);
+}
+.login-admin .content-1 h2{
+  color: #333;
+}
+.login-admin .content-1 input[type="text"]{
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+.login-admin .content-1 input[type="text"]:focus{
+  border-color: #ccc;
+}
+.login-admin .content-1 a{
+  background-color: #fff;
+  color: #dadada;
+  border: 1px solid #ccc;
+}
+.login-admin .copyright{
+  color: #999;
+}

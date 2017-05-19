@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<title></title>
+		<script>
+			var winResizeFn = function() {
+				document.getElementsByTagName('html')[0].style.fontSize = document.documentElement.clientHeight / 10.80 +
+					"px";
+			};
+			winResizeFn();
+			window.onresize = winResizeFn;
+		</script>
+		<link rel="stylesheet" type="text/css" href="../css/mbase.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/BigScreen-1.css" />
+		<script src="../js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/mbase.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/three.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/TrackballControls.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/svg2.5d.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/map-data.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/threeMap.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/BigScreen-1.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="../js/common.js"></script>
+	</head>
+
+	<body class="header-dark">
+		<header class="header-wrap">
+			<div class="header">
+				<a class="logo-1 left vertical" href="index.html"></a>
+				<div class="loginBar-1 right">
+					<div class="list-box vertical">
+						<div class="tx-box left"></div>
+						<div class="list-tit">江城工商</div>
+						<div class="list-cont">
+							<ii></ii>
+							<div class="list-items">
+								<a href="">个人中心</a>
+								<a href="">退出</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header-1-nav right">
+					<ul>
+						<li>
+							<div class="list-box">
+								<div class="list-tit">信息门户</div>
+								<div class="list-cont">
+									<ii></ii>
+									<div class="list-items">
+										<a href="">通知公告</a>
+										<a href="">政务信息</a>
+										<a href="">业务信息</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-box">
+								<div class="list-tit">工作交流</div>
+								<div class="list-cont">
+									<ii></ii>
+									<div class="list-items">
+										<a href="">知识云</a>
+										<a href="">视频会议</a>
+										<a href="">在线沟通</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-box">
+								<div class="list-tit">业务协同</div>
+								<div class="list-cont">
+									<ii></ii>
+									<div class="list-items">
+										<a href="">12315消费维权协作</a>
+										<a href="">注册登记协作</a>
+										<a href="">商标保护协作</a>
+										<a href="">公平交易执法协作</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="list-box">
+								<div class="list-tit">数据分析</div>
+								<div class="list-cont">
+									<ii></ii>
+									<div class="list-items">
+										<a href="">跨四市流动数据融合平台</a>
+										<a href="">新增主体户数对比分析</a>
+										<a href="">市场主体产业类型分析</a>
+										<a href="">市场主体活跃度分析</a>
+										<a href="">重点产业结构发展分析</a>
+										<a href="">企业年龄结构分析</a>
+										<a href="">企业及投资人族谱分析</a>
+										<a href="">四城市市场主体迁移分析</a>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="header-search-box right">
+					<div class="search-icon"></div>
+					<form class="nav_1_form vertical" style="display:none;">
+						<input type="text" value="" placeholder="" />
+						<input type="submit" value="" />
+					</form>
+				</div>
+			</div>
+		</header>
+		<div class="left-content">
+			<h3>四城市工商投资流入流出分析</h3>
+			<div class="left-content-d">
+				<nav class="nav-1 overflow">
+					<a class="active left">流入</a>
+					<a class="left">流出</a>
+				</nav>
+				<div class="nav-1-c overflow">
+					<nav class="nav-2 left">
+						<a class="active">武汉</a>
+						<a>长沙</a>
+						<a>合肥</a>
+						<a>南昌</a>
+					</nav>
+					<nav class="nav-2 left hide">
+						<a class="active">武汉</a>
+						<a>长沙</a>
+						<a>合肥</a>
+						<a>南昌</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div class="right-content">
+			<div class="right-content-d transition-1 transform-front-view">
+				<h4 class="headline-1">2015年度工商投资<span class="ingo">流入</span></h4>
+				<h3 class="name-1"><em>武汉</em></h3>
+				<hr />
+				<h5 class="headline-2"><span class="ingo">流入</span>资金总额 (元)</h5>
+				<h4 class="fund-1">234,878,080</h4>
+				<hr />
+				<h5 class="source-1"><em>长沙</em><span class="ingo">流入</span></h5>
+				<h5 class="fund-2">21,321,768</h5>
+				<h5 class="source-1"><em>合肥</em><span class="ingo">流入</span></h5>
+				<h5 class="fund-2">1,987,875</h5>
+				<h5 class="source-1"><em>南昌</em><span class="ingo">流入</span></h5>
+				<h5 class="fund-2">211,568,437</h5>
+			</div>
+			<div class="right-content-d transition-1  transform-bottom-view">
+				<h4 class="headline-1">2015年度工商投资<span class="ingo">流入</span></h4>
+				<h3 class="name-1"><em>长沙</em></h3>
+				<hr />
+				<h5 class="headline-2"><span class="ingo">流入</span>资金总额 (元)</h5>
+				<h4 class="fund-1">234,878,080</h4>
+				<hr />
+				<h5 class="source-1"><em>合肥</em><span class="ingo">流入</span></h5>
+				<h5 class="fund-2">1,987,875</h5>
+				<h5 class="source-1"><em>南昌</em><span class="ingo">流入</span></h5>
+				<h5 class="fund-2">211,568,437</h5>
+				<h5 class="source-1"><em>武汉</em><span class="ingo">流入</span></h5>
+				<h5 class="fund-2">21,321,768</h5>
+			</div>
+		</div>
+		<footer>
+			<div class="drag-1"></div>
+			<div class="nav-3">
+				<a>2006</a>
+				<a>2007</a>
+				<a>2008</a>
+				<a>2009</a>
+				<a>2010</a>
+				<a>2011</a>
+				<a>2012</a>
+				<a>2013</a>
+				<a>2014</a>
+				<a class="active">2015</a>
+				<a>2016</a>
+			</div>
+		</footer>
+	</body>
+
+</html>

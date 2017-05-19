@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS basic */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{ margin: 0; padding: 0; }
+fieldset,img{ border: 0; }
+img{vertical-align: top;}
+:focus{ outline: 0; }
+address,caption,cite,code,dfn,em,strong,th,var,optgroup{ font-style: normal; font-weight: normal; }
+h1,h2,h3,h4,h5,h6{ font-size: 100%; font-weight: normal; font-family: "Arial","Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif"; }
+input,button,textarea,select{ *font-size: 100%; border:none;}
+body{ background:#fff;font: 12px/1.5 "Arial","Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif"; }
+ol,ul,li{ list-style: none; }
+table{ border-collapse: collapse; border-spacing: 0; }
+i{ font-style: normal;}
+:link, :visited, ins{ text-decoration: none; }
+.rel{position: relative;}.abs{position: absolute;}.fl{float: left;}.fr{float: right;}
+.w{width: 1080px;min-width:1080px;margin: 0 auto;position: relative;}
+a{color: #666;}a:hover{transition : color 0.2s linear 0s,background-color 0.3 linear 0s;color: #63b2f5;}
+.clearfix:after{content:'\0020';display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{*zoom:1;}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {display: block;}
+
+.Admin-layout{
+	position: relative;
+	background: #eee;
+}
+.Admin-layout .admin-header{
+	box-sizing: border-box;
+	height: 70px;
+	padding: 18px;
+	background: #f8f8f7;
+	margin-bottom: 20px;
+	box-shadow: 0 0 20px rgba(0,0,0,.1);
+}
+.Admin-layout .admin-header .logo{
+	width: 410px;
+	height: 34px;
+	background: url(../img/logo-dack.svg) no-repeat;
+	display: block;
+}
+.Admin-layout .admin-aside,.Admin-layout .admin-Main{
+	position: fixed;
+	top: 90px;
+	bottom: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 0 20px rgba(0,0,0,.1);
+}
+.Admin-layout .admin-aside{
+	position: fixed;
+	left: 20px;	
+    z-index: 999;
+	width: 198px;
+}
+.Admin-layout .admin-Main{
+	z-index: 998;
+	left: 230px;
+	right: 20px;
+	overflow: hidden;
+    overflow-y: auto;
+}
+.Admin-layout .admin-Main iframe{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff url(../img/admin_welocme.png) center no-repeat;
+}
+.AsideList{
+	padding-top: 28px;
+}
+.AsideList li{
+	font-size: 16px;
+	height: 36px;
+	color: #333;
+	overflow: hidden;
+	white-space: nowrap;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+.AsideList li a{
+	padding-left: 16px;
+	color: #000;
+	border-left: 2px solid #fff;
+}
+.AsideList li.cur a,.AsideList li a:hover{
+	color: #f03;
+	border-color: #f03;
+}
+.Admin_index{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -154px;
+	margin-left: -361px;
+	width: 722px;
+	height: 307px;
+	background: #fff url(../img/admin_welocme.png) center no-repeat;
+}

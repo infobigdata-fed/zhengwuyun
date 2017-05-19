@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>后台登录</title>
+	<link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+	<div class="Admin-layout">
+		<div class="admin-header">
+			<a class="logo vertical" href=""></a>
+		</div>
+		<div class="admin-aside">
+			<ul class="AsideList">
+				<li class="cur"><a href="" target="iframe">首页</a></li>
+				<li><a href="http://www.baidu.com" target="iframe">用户管理</a></li>
+				<li><a href="http://www.flowerboys.cn" target="iframe">APP我要投资</a></li>
+				<li><a href="" target="iframe">首页新闻管理</a></li>
+			</ul>
+		</div>
+		<div class="admin-Main">
+			<!-- 正文内容 start-->
+				<iframe src="admin_index.html" frameborder="0" name="iframe"></iframe>
+			<!-- 正文内容 end -->
+		</div>
+	</div>
+
+	<!-- 控制左边导航高亮 -->
+	<script src="http://apps.bdimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>
+		$(function(){
+			$('.AsideList').on('click','li',function(){
+				$(this).addClass('cur').siblings().removeClass('cur');
+			})
+		})
+	</script>
+</body>
+</html>

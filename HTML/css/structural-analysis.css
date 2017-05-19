@@ -1,0 +1,224 @@
+@charse "utf-8"
+/*CSS Document*/
+
+.xxxxxx {
+  width: 0;
+}
+.structural-analysis-body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #f8fafb;
+}
+
+.structural-analysis-w {
+  width: 100%;
+  height: 10.80rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.section-1 {
+  margin-left: 80px;
+  margin-top: 1.52rem;
+  width: 370px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.section-1 h2 {
+  font-size: 36px;
+  line-height: 36px;
+  color: #ff0033;
+}
+.analysis-select {
+  margin-top: 0.45rem;
+  margin-bottom: 0.30rem;
+  font-size: 16px;
+  color: #333333;
+}
+.analysis-select select {
+  width: 298px;
+}
+.analysis-select .Mselect {
+  height: 40px;
+  text-indent: 22px;
+}
+.analysis-select .Mchecked {
+  line-height: 38px;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.1);
+  background: url(../img/fy-MselectI.png) 268px center no-repeat;
+}
+.analysis-select .McheckedOn {
+  background: url(../img/fy-MselectOn.jpg) 268px center no-repeat;
+}
+.analysis-nav {
+  margin-bottom: 0.30rem;
+  overflow: hidden;
+}
+.analysis-nav a {
+  float: left;
+  width: 100px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  font-size: 16px;
+  color: #333333;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  margin-right: -1px;
+}
+.analysis-nav a:first-of-type {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.analysis-nav a:last-of-type {
+  margin-right: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.analysis-nav a.active,
+.analysis-nav a:hover {
+  color: #ffffff;
+  border-color: #dd3c63;
+  background-image: -webkit-linear-gradient(90deg, #d7355c 0%, #f64670 100%);
+  background-image: -ms-linear-gradient(90deg, #d7355c 0%, #f64670 100%);
+}
+.analysis-p {
+  font-size: 14px;
+  color: #666666;
+}
+.analysis-p span {
+  color: #ff0033;
+}
+.section-2 {
+  margin-left: 80px;
+  margin-bottom: 0.84rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.section-2 .circle-p {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 0.30rem;
+}
+.section-2 .circle {
+  height: 172px;
+  margin-bottom: 0.42rem;
+  position: relative;
+}
+.section-2 .circle span {
+  width: 150px;
+  line-height: 1;
+  font-size: 14px;
+  color: #666666;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.section-2 .circle span i {
+  margin-top: 6px;
+  border: 1px dashed #999999;
+  display: inline-block;
+  border-radius: 50%;
+}
+.section-2 .circle span:nth-of-type(1) i {
+  width: 150px;
+  height: 150px;
+}
+.section-2 .circle span:nth-of-type(2) i {
+  width: 100px;
+  height: 100px;
+}
+.section-2 .circle span:nth-of-type(3) i {
+  width: 50px;
+  height: 50px;
+}
+.section-2 .circle-color p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1;
+  margin-bottom: 0.24rem;
+}
+.section-2 .circle-color .circle-color-nav-1 {
+  height: 15px;
+}
+.section-2 .circle-color .circle-color-nav-1 span {
+  float: left;
+  width: 60px;
+  height: 15px;
+  margin-right: 1px;
+}
+.section-2 .circle-color .circle-color-nav-2 {
+  height: 15px;
+}
+.section-2 .circle-color .circle-color-nav-2 span {
+  float: left;
+  width: 60px;
+  height: 18px;
+  line-height: 18px;
+  margin-top: 10px;
+  margin-right: 1px;
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  position: relative;
+}
+.section-2 .circle-color .circle-color-nav-2 span:after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 10px;
+  background-color: #cccccc;
+  position: absolute;
+  left: 30px;
+  top: -10px;
+}
+.section-main {
+  width: calc(100% - 520px);
+  height: 8.00rem;
+  position: absolute;
+  left: 453px;
+  top: 1.52rem;
+}
+.section-main svg {
+  width: 100%;
+  height: 100%;
+}
+.section-main.active {
+  background: url(../img/shadow-1.png) center bottom no-repeat;
+}
+.section-right {
+  width: 56px;
+  height: 400px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -200px;
+}
+.section-right a {
+  display: block;
+  margin-bottom: 24px;
+  font-size: 14px;
+  line-height: 1;
+  color: #666666;
+  position: relative;
+}
+.section-right a:hover,
+.section-right a.active {
+  color: #ff0033;
+}
+.section-right a:hover:after,
+.section-right a.active:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 6px;
+  width: 20px;
+  height: 1px;
+  background-color: #ff0033;
+}

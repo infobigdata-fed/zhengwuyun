@@ -1,0 +1,749 @@
+body {
+  overflow: hidden;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+/*全屏底部提示动画*/
+.roll-d {
+  width: 24px;
+  height: 61px;
+  background: url(../img/roll-1.png) center no-repeat;
+  position: absolute;
+  left: 50%;
+  bottom: 24px;
+  margin-left: -12px;
+  z-index: 9;
+}
+.roll-d:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../img/roll-2.png) center no-repeat;
+  position: absolute;
+  -webkit-animation: myfirst-2 1s linear infinite;
+          animation: myfirst-2 1s linear infinite;
+}
+@-webkit-keyframes myfirst-2 {
+  from {
+    top: 0;
+    opacity: 1;
+  }
+  to {
+    top: 10px;
+    opacity: 0;
+  }
+}
+@keyframes myfirst-2 {
+  from {
+    top: 0;
+    opacity: 1;
+  }
+  to {
+    top: 10px;
+    opacity: 0;
+  }
+}
+/*第一屏底部样式*/
+.footer-city-1 .footer-city {
+  position: absolute;
+  bottom: 1.86rem;
+  width: 100%;
+}
+.footer-city-1 .footer-city .linkarea {
+  margin: 0 auto;
+  width: 700px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer-city-1 .footer-city .list-box {
+  width: 140px;
+  text-align: center;
+}
+.footer-city-1 .footer-city .list-tit {
+  margin-bottom: .15rem;
+}
+.footer-city-1 .footer-city .list-tit a {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  line-height: .28rem;
+}
+.footer-city-1 .footer-city .list-tit .icon:before {
+  content: "";
+  margin: .05rem auto;
+  display: block;
+  width: 35px;
+  height: 35px;
+}
+.footer-city-1 .footer-city .list-tit .icon-1:before {
+  background: url(../img/icon-city-3.png) center center no-repeat;
+}
+.footer-city-1 .footer-city .list-tit .icon-2:before {
+  background: url(../img/icon-city-4.png) center center no-repeat;
+}
+.footer-city-1 .footer-city .list-tit .icon-3:before {
+  background: url(../img/icon-city-5.png) center center no-repeat;
+}
+.footer-city-1 .footer-city .list-tit .icon-4:before {
+  background: url(../img/icon-city-6.png) center center no-repeat;
+}
+.footer-city-1 .footer-city .list-tit .icon-5:before {
+  background: url(../img/icon-city-7.png) center center no-repeat;
+}
+/*第二屏底部样式*/
+.footer-city-2 .footer-city {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+}
+.footer-city-2 .footer-city .linkarea {
+  margin: 0 auto;
+  width: 942px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer-city-2 .footer-city .list-box {
+  width: 180px;
+  text-align: center;
+}
+.footer-city-2 .footer-city .list-tit {
+  margin-bottom: 15px;
+}
+.footer-city-2 .footer-city .list-tit a {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  line-height: 28px;
+}
+.footer-city-2 .footer-city .list-tit .icon:before {
+  content: "";
+  margin: 5px auto;
+  display: block;
+  width: 35px;
+  height: 35px;
+}
+.footer-city-2 .footer-city .list-tit .icon-1:before {
+  background: url(../img/icon-city-3.png) center center no-repeat;
+}
+.footer-city-2 .footer-city .list-tit .icon-2:before {
+  background: url(../img/icon-city-4.png) center center no-repeat;
+}
+.footer-city-2 .footer-city .list-tit .icon-3:before {
+  background: url(../img/icon-city-5.png) center center no-repeat;
+}
+.footer-city-2 .footer-city .list-tit .icon-4:before {
+  background: url(../img/icon-city-6.png) center center no-repeat;
+}
+.footer-city-2 .footer-city .list-tit .icon-5:before {
+  background: url(../img/icon-city-7.png) center center no-repeat;
+}
+.footer-city-2 .footer-city .list-cont a {
+  font-size: 14px;
+  color: #c7ccda;
+  line-height: 24px;
+}
+/*四城市详情页面-公共*/
+.city-info-page .compare-box .icon:before {
+  background: url(../img/icon-city-1.png) top center no-repeat;
+}
+.city-info-page .header-city-wrap {
+  display: none;
+}
+.city-info-page .header-city-wrap .header-city {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background: #22293b;
+  z-index: 20;
+}
+.city-info-page .header-city-wrap .header-city .linkarea {
+  margin: 0 auto;
+  width: 700px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.city-info-page .header-city-wrap .header-city .list-box {
+  width: 150px;
+  text-align: center;
+}
+.city-info-page .header-city-wrap .header-city .list-tit a {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  line-height: 60px;
+}
+.city-info-page .header-city-wrap .header-city .list-tit a:hover {
+  color: #9ba4bd;
+}
+.city-info-page .header-city-wrap .header-city .list-tit .icon:before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+}
+.city-info-page .header-city-wrap .header-city .list-tit .icon-1:before {
+  background: url(../img/icon-city-3.png) center center no-repeat;
+}
+.city-info-page .header-city-wrap .header-city .list-tit .icon-1:hover:before {
+  background: url(../img/icon-city-3h.png) center center no-repeat;
+}
+.city-info-page .header-city-wrap .header-city .list-tit .icon-2:before {
+  background: url(../img/icon-city-4.png) center center no-repeat;
+}
+.city-info-page .header-city-wrap .header-city .list-tit .icon-2:hover:before {
+  background: url(../img/icon-city-4h.png) center center no-repeat;
+}
+.city-info-page .header-city-wrap .header-city .list-tit .icon-3:before {
+  background: url(../img/icon-city-5.png) center center no-repeat;
+}
+.city-info-page .header-city-wrap .header-city .list-tit .icon-3:hover:before {
+  background: url(../img/icon-city-5h.png) center center no-repeat;
+}
+.city-info-page .header-city-wrap .header-city .list-tit .icon-4:before {
+  background: url(../img/icon-city-6.png) center center no-repeat;
+}
+.city-info-page .header-city-wrap .header-city .list-tit .icon-4:hover:before {
+  background: url(../img/icon-city-6h.png) center center no-repeat;
+}
+.city-info-page .header-city-wrap .header-city .list-tit .icon-5:before {
+  background: url(../img/icon-city-7.png) center center no-repeat;
+}
+.city-info-page .header-city-wrap .header-city .list-tit .icon-5:hover:before {
+  background: url(../img/icon-city-7h.png) center center no-repeat;
+}
+.city-info-page .header-city-wrap .header-city .list-cont {
+  display: none;
+}
+.city-info-page .header-city-wrap .compare-box {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  z-index: 50;
+  /*添加对比*/
+  width: 344px;
+  text-align: center;
+}
+.city-info-page .header-city-wrap .compare-box .box-tit {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+}
+.city-info-page .header-city-wrap .compare-box .icon:before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  width: 31px;
+  height: 23px;
+  vertical-align: middle;
+}
+.city-info-page .header-city-wrap .compare-box .box-cont {
+  padding: 12px;
+  width: 344px;
+  background: #fff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.city-info-page .header-city-wrap .compare-box .box-cont a {
+  display: block;
+  text-indent: 15px;
+  width: 100px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  color: #22293b;
+  border: 1px solid #22293b;
+  background: #fff url(../img/icon-city-2h.png) 25px center no-repeat;
+}
+.city-info-page .header-city-wrap .compare-box .box-cont a:hover {
+  color: #fff;
+  border-color: #22293b;
+  background: #22293b url(../img/icon-city-2.png) 25px center no-repeat;
+}
+.city-info-page .header-city-wrap .back-top {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  z-index: 50;
+  font-size: 16px;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+}
+.city-info-page .header-city-wrap .back-top.icon:before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  width: 22px;
+  height: 20px;
+  background: url(../img/icon-city-back-top.png);
+  vertical-align: middle;
+}
+.city-info-page .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.city-info-page .swiper-container-scrollbar .swiper-slide {
+  height: auto;
+}
+.city-info-page .section-1 {
+  /*第一屏*/
+  padding-top: 2.45rem;
+  width: 100%;
+  height: 10.8rem;
+}
+.city-info-page .section-1 .city-txt {
+  margin: 0 auto;
+  height: 114px;
+}
+.city-info-page .section-1 .compare-box {
+  /*添加对比*/
+  margin: 0 auto;
+  width: 320px;
+  height: 1.9rem;
+  text-align: center;
+}
+.city-info-page .section-1 .compare-box .box-tit {
+  display: inline-block;
+  margin: .46rem auto .14rem;
+  font-size: 16px;
+  color: #fff;
+  line-height: .22rem;
+  text-align: center;
+  cursor: pointer;
+}
+.city-info-page .section-1 .compare-box .icon:before {
+  content: "";
+  margin: .05rem auto;
+  display: block;
+  width: 31px;
+  height: 23px;
+  background-size: auto 100%;
+}
+.city-info-page .section-1 .compare-box .box-cont {
+  margin: 0 auto .28rem;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.city-info-page .section-1 .compare-box .box-cont a {
+  display: block;
+  text-indent: 15px;
+  width: 100px;
+  height: .5rem;
+  font-size: 16px;
+  line-height: .5rem;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: url(../img/icon-city-2.png) 25px center no-repeat;
+}
+.city-info-page .section-1 .compare-box .box-cont a:hover {
+  color: #333;
+  border-color: #fff;
+  background: #fff url(../img/icon-city-2h.png) 25px center no-repeat;
+}
+.city-info-page .section-1 .intro-box-wrap {
+  margin: 0 auto;
+  width: 94%;
+  max-width: 680px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.city-info-page .section-1 .intro-box1 {
+  position: relative;
+  padding-top: .15rem;
+  width: 200px;
+  height: 1.2rem;
+  line-height: .4rem;
+}
+.city-info-page .section-1 .intro-box1:before,
+.city-info-page .section-1 .intro-box1:after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  border: 1px solid #fff;
+  background: #000;
+  opacity: 0.2;
+}
+.city-info-page .section-1 .intro-box1:before {
+  top: 0;
+  left: 5px;
+  width: 190px;
+  height: 1.2rem;
+}
+.city-info-page .section-1 .intro-box1:after {
+  top: .05rem;
+  left: 0;
+  width: 200px;
+  height: 1.1rem;
+}
+.city-info-page .section-1 .intro-box1 p {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  z-index: 3;
+}
+.city-info-page .section-1 .intro-box1 p .box-tit {
+  display: block;
+  font-size: 16px;
+  line-height: .4rem;
+}
+.city-info-page .section-1 .intro-box1 p .box-cont {
+  display: block;
+  font-size: 24px;
+  line-height: .4rem;
+}
+.city-info-page .section-2 {
+  /*第二屏*/
+  padding-top: 1.75rem;
+  width: 100%;
+  height: 10.8rem;
+  background: #0b0f1b url(../img/about-city-bg.jpg) bottom center no-repeat;
+  background-size: cover;
+}
+.city-info-page .section-2 .about-city-box p {
+  padding-top: .24rem;
+  width: 500px;
+  font-size: 14px;
+  color: #c7ccda;
+  line-height: .24rem;
+}
+.city-info-page .section-2 .about-city-box .box-tit {
+  height: .67rem;
+}
+.city-info-page .section-3,
+.city-info-page .section-4,
+.city-info-page .section-5,
+.city-info-page .section-6 {
+  /*第三屏*/
+  width: 100%;
+  background: #fff;
+}
+.city-info-page .section-3 .boxs-container .box-tit,
+.city-info-page .section-4 .boxs-container .box-tit,
+.city-info-page .section-5 .boxs-container .box-tit,
+.city-info-page .section-6 .boxs-container .box-tit {
+  font-size: 30px;
+  line-height: 128px;
+  color: #333;
+  text-align: center;
+}
+.city-info-page .section-3 .boxs-container .chart,
+.city-info-page .section-4 .boxs-container .chart,
+.city-info-page .section-5 .boxs-container .chart,
+.city-info-page .section-6 .boxs-container .chart {
+  width: 100%;
+  height: 100%;
+}
+.city-info-page .section-3 .boxs-container .box-wrap1,
+.city-info-page .section-4 .boxs-container .box-wrap1,
+.city-info-page .section-5 .boxs-container .box-wrap1,
+.city-info-page .section-6 .boxs-container .box-wrap1,
+.city-info-page .section-3 .boxs-container .box-wrap2,
+.city-info-page .section-4 .boxs-container .box-wrap2,
+.city-info-page .section-5 .boxs-container .box-wrap2,
+.city-info-page .section-6 .boxs-container .box-wrap2 {
+  padding-bottom: 58px;
+}
+.city-info-page .section-3 .boxs-container .box-wrap1 .box,
+.city-info-page .section-4 .boxs-container .box-wrap1 .box,
+.city-info-page .section-5 .boxs-container .box-wrap1 .box,
+.city-info-page .section-6 .boxs-container .box-wrap1 .box,
+.city-info-page .section-3 .boxs-container .box-wrap2 .box,
+.city-info-page .section-4 .boxs-container .box-wrap2 .box,
+.city-info-page .section-5 .boxs-container .box-wrap2 .box,
+.city-info-page .section-6 .boxs-container .box-wrap2 .box {
+  width: 50%;
+  padding: 0 5%;
+  height: 610px;
+  text-align: center;
+}
+.city-info-page .section-3 .boxs-container .box-wrap1,
+.city-info-page .section-4 .boxs-container .box-wrap1,
+.city-info-page .section-5 .boxs-container .box-wrap1,
+.city-info-page .section-6 .boxs-container .box-wrap1 {
+  border-bottom: 2px solid #ccc;
+}
+.city-info-page .section-3 .boxs-container .box-wrap2-d .box-w,
+.city-info-page .section-4 .boxs-container .box-wrap2-d .box-w,
+.city-info-page .section-5 .boxs-container .box-wrap2-d .box-w,
+.city-info-page .section-6 .boxs-container .box-wrap2-d .box-w,
+.city-info-page .section-3 .boxs-container .box-wrap3 .box-w,
+.city-info-page .section-4 .boxs-container .box-wrap3 .box-w,
+.city-info-page .section-5 .boxs-container .box-wrap3 .box-w,
+.city-info-page .section-6 .boxs-container .box-wrap3 .box-w,
+.city-info-page .section-3 .boxs-container .box-wrap4 .box-w,
+.city-info-page .section-4 .boxs-container .box-wrap4 .box-w,
+.city-info-page .section-5 .boxs-container .box-wrap4 .box-w,
+.city-info-page .section-6 .boxs-container .box-wrap4 .box-w {
+  width: 50%;
+}
+.city-info-page .section-3 .boxs-container .box-wrap2-d .box-w-1,
+.city-info-page .section-4 .boxs-container .box-wrap2-d .box-w-1,
+.city-info-page .section-5 .boxs-container .box-wrap2-d .box-w-1,
+.city-info-page .section-6 .boxs-container .box-wrap2-d .box-w-1,
+.city-info-page .section-3 .boxs-container .box-wrap3 .box-w-1,
+.city-info-page .section-4 .boxs-container .box-wrap3 .box-w-1,
+.city-info-page .section-5 .boxs-container .box-wrap3 .box-w-1,
+.city-info-page .section-6 .boxs-container .box-wrap3 .box-w-1,
+.city-info-page .section-3 .boxs-container .box-wrap4 .box-w-1,
+.city-info-page .section-4 .boxs-container .box-wrap4 .box-w-1,
+.city-info-page .section-5 .boxs-container .box-wrap4 .box-w-1,
+.city-info-page .section-6 .boxs-container .box-wrap4 .box-w-1 {
+  border-right: 2px solid #ccc;
+}
+.city-info-page .section-3 .boxs-container .box-wrap2-d .box-tit,
+.city-info-page .section-4 .boxs-container .box-wrap2-d .box-tit,
+.city-info-page .section-5 .boxs-container .box-wrap2-d .box-tit,
+.city-info-page .section-6 .boxs-container .box-wrap2-d .box-tit,
+.city-info-page .section-3 .boxs-container .box-wrap3 .box-tit,
+.city-info-page .section-4 .boxs-container .box-wrap3 .box-tit,
+.city-info-page .section-5 .boxs-container .box-wrap3 .box-tit,
+.city-info-page .section-6 .boxs-container .box-wrap3 .box-tit,
+.city-info-page .section-3 .boxs-container .box-wrap4 .box-tit,
+.city-info-page .section-4 .boxs-container .box-wrap4 .box-tit,
+.city-info-page .section-5 .boxs-container .box-wrap4 .box-tit,
+.city-info-page .section-6 .boxs-container .box-wrap4 .box-tit {
+  border-top: 2px solid #ccc;
+}
+.city-info-page .section-3 .boxs-container .box-wrap2-d .box,
+.city-info-page .section-4 .boxs-container .box-wrap2-d .box,
+.city-info-page .section-5 .boxs-container .box-wrap2-d .box,
+.city-info-page .section-6 .boxs-container .box-wrap2-d .box,
+.city-info-page .section-3 .boxs-container .box-wrap3 .box,
+.city-info-page .section-4 .boxs-container .box-wrap3 .box,
+.city-info-page .section-5 .boxs-container .box-wrap3 .box,
+.city-info-page .section-6 .boxs-container .box-wrap3 .box,
+.city-info-page .section-3 .boxs-container .box-wrap4 .box,
+.city-info-page .section-4 .boxs-container .box-wrap4 .box,
+.city-info-page .section-5 .boxs-container .box-wrap4 .box,
+.city-info-page .section-6 .boxs-container .box-wrap4 .box {
+  margin-bottom: 70px;
+  text-align: center;
+}
+.city-info-page .section-3 .boxs-container .box-wrap2-d .box,
+.city-info-page .section-4 .boxs-container .box-wrap2-d .box,
+.city-info-page .section-5 .boxs-container .box-wrap2-d .box,
+.city-info-page .section-6 .boxs-container .box-wrap2-d .box {
+  padding: 0 13%;
+}
+.city-info-page .section-3 .boxs-container .box-wrap3 .box-w-1 .box-1,
+.city-info-page .section-4 .boxs-container .box-wrap3 .box-w-1 .box-1,
+.city-info-page .section-5 .boxs-container .box-wrap3 .box-w-1 .box-1,
+.city-info-page .section-6 .boxs-container .box-wrap3 .box-w-1 .box-1 {
+  padding: 0 13%;
+}
+.city-info-page .section-3 .boxs-container .box-wrap3 .box-w-1 .box-2,
+.city-info-page .section-4 .boxs-container .box-wrap3 .box-w-1 .box-2,
+.city-info-page .section-5 .boxs-container .box-wrap3 .box-w-1 .box-2,
+.city-info-page .section-6 .boxs-container .box-wrap3 .box-w-1 .box-2 {
+  padding: 0 17%;
+}
+.city-info-page .section-3 .boxs-container .box-wrap3 .box-w-1 .box-3,
+.city-info-page .section-4 .boxs-container .box-wrap3 .box-w-1 .box-3,
+.city-info-page .section-5 .boxs-container .box-wrap3 .box-w-1 .box-3,
+.city-info-page .section-6 .boxs-container .box-wrap3 .box-w-1 .box-3 {
+  padding: 0 14%;
+}
+.city-info-page .section-3 .boxs-container .box-wrap3 .box-w-2 .box-1,
+.city-info-page .section-4 .boxs-container .box-wrap3 .box-w-2 .box-1,
+.city-info-page .section-5 .boxs-container .box-wrap3 .box-w-2 .box-1,
+.city-info-page .section-6 .boxs-container .box-wrap3 .box-w-2 .box-1 {
+  padding: 0 10%;
+}
+.city-info-page .section-3 .boxs-container .box-wrap3 .box-w-2 .box-2,
+.city-info-page .section-4 .boxs-container .box-wrap3 .box-w-2 .box-2,
+.city-info-page .section-5 .boxs-container .box-wrap3 .box-w-2 .box-2,
+.city-info-page .section-6 .boxs-container .box-wrap3 .box-w-2 .box-2 {
+  margin-bottom: 48px;
+  padding: 0 10%;
+}
+.city-info-page .section-3 .boxs-container .box-wrap3 .box-w-2 .box-3,
+.city-info-page .section-4 .boxs-container .box-wrap3 .box-w-2 .box-3,
+.city-info-page .section-5 .boxs-container .box-wrap3 .box-w-2 .box-3,
+.city-info-page .section-6 .boxs-container .box-wrap3 .box-w-2 .box-3 {
+  padding: 0 14%;
+}
+.city-info-page .section-3 .boxs-container .box-wrap4 .box-w-1 .box-1,
+.city-info-page .section-4 .boxs-container .box-wrap4 .box-w-1 .box-1,
+.city-info-page .section-5 .boxs-container .box-wrap4 .box-w-1 .box-1,
+.city-info-page .section-6 .boxs-container .box-wrap4 .box-w-1 .box-1 {
+  margin-top: 18px;
+  padding: 0 17%;
+}
+.city-info-page .section-3 .boxs-container .box-wrap4 .box-w-2 .box-1,
+.city-info-page .section-4 .boxs-container .box-wrap4 .box-w-2 .box-1,
+.city-info-page .section-5 .boxs-container .box-wrap4 .box-w-2 .box-1,
+.city-info-page .section-6 .boxs-container .box-wrap4 .box-w-2 .box-1 {
+  margin-top: 18px;
+  padding: 0 10%;
+}
+.city-info-page .section-3,
+.city-info-page .section-4,
+.city-info-page .section-6 {
+  height: auto!important;
+}
+.city-info-page .section-3.swiper-slide-active,
+.city-info-page .section-4.swiper-slide-active,
+.city-info-page .section-6.swiper-slide-active {
+  padding-top: 60px;
+  height: auto!important;
+}
+.city-info-page .section-5 {
+  /*全屏*/
+}
+.city-info-page .section-5.swiper-slide-active {
+  padding-top: 60px;
+  height: 100%!important;
+}
+.city-info-page .section-7 {
+  height: 6rem!important;
+}
+/*四城市详情页面-武汉*/
+.city-info-wuhan-page .section-1 {
+  background: url(../img/city-wuhan-1.jpg) top center no-repeat;
+  background-size: cover;
+}
+.city-info-wuhan-page .section-1 .city-txt-bg {
+  width: 231px;
+  background: url(../img/tit-wuhan.png) top center no-repeat;
+}
+.city-info-wuhan-page .section-2 .about-city-box .container {
+  background: url(../img/map-wuhan.png) center right no-repeat;
+  background-size: auto 3.45rem;
+}
+.city-info-wuhan-page .section-2 .about-city-box .box-tit {
+  width: 254px;
+  background: url(../img/about-wuhan.png) top left no-repeat;
+  background-size: auto .61rem;
+}
+/*四城市详情页面-长沙*/
+.city-info-changsha-page .section-1 {
+  background: url(../img/city-changsha-1.jpg) top center no-repeat;
+  background-size: cover;
+}
+.city-info-changsha-page .section-1 .city-txt-bg {
+  width: 338px;
+  background: url(../img/tit-changsha.png) top center no-repeat;
+}
+.city-info-changsha-page .section-2 .about-city-box .container {
+  background: url(../img/map-changsha.png) bottom right no-repeat;
+  background-size: auto 4.01rem;
+}
+.city-info-changsha-page .section-2 .about-city-box .box-tit {
+  width: 307px;
+  background: url(../img/about-changsha.png) top left no-repeat;
+  background-size: auto .67rem;
+}
+
+
+/* 2017-05-18 数据卡  by jackLei */
+.t-orange{
+  color: #ff7d39!important;
+}
+.data-card-list{}
+.data-card-list li{
+  width: 50%;
+  padding: 9px;
+  float: left;
+}
+.data-card-list li.col-1{
+  width: 100%;
+}
+.data-card-list .items{
+  height: 200px;
+  padding: 50px 12px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,.1);
+  text-align: center;
+}
+.data-card-list li .title{
+  display: block;
+  font-size: 18px;
+  line-height: 32px;
+  color: #333;
+  margin-bottom: 12px;
+  height: 32px;
+  white-space: nowrap;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.data-card-list li .number{
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 48px;
+  color: #7ba1df;
+  font-family: "PingFang SC","Avenir Next","Helvetica Neue",Helvetica,Arial,"Source Han Sans SC","Hiragino Sans GB","Microsoft YaHei","WenQuanYi MicroHei",sans-serif;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.city-title{font: 24px/32px 'Microsoft YaHei';color: #333;margin: 30px auto;height: 32px;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+
+/* create by jackLei(leiyong@infobigdata.com) 2017-05-18 */
+.J_Map{position: relative;height: auto;}
+.Map{position: relative;left: 50%;background-position: center;background-repeat: no-repeat;margin: 0 auto;}
+.Map-dot-list{position: relative;}
+.Map-dot-list li{position: absolute;transition : all 0.2s linear 0s;}
+.Map-dot-list li:after{position: absolute;top: 50%;left: 50%;content:"";width: 1px;height: 1px;border: 1px solid #fd4b62;background: rgba(252, 126, 142, .6);border-radius: 50%;display: block;}
+.Map-dot-list li.level-1:after{width: 6px;height: 6px;left: -3px;top: -3px;}
+.Map-dot-list li.level-2:after{width: 10px;height: 10px;left: -5px;top: -5px;}
+.Map-dot-list li.level-3:after{width: 16px;height: 16px;left: -8px;top: -8px;}
+.Map-dot-list li.level-4:after{width: 20px;height: 20px;left: -10px;top: -10px;}
+.Map-dot-list li.level-5:after{width: 24px;height: 24px;left: -12px;top: -12px;}
+.Map-dot-list li.level-6:after{width: 28px;height: 28px;left: -14px;top: -14px;}
+.Map-dot-list li.level-7:after{width: 36px;height: 36px;left: -18px;top: -18px;}
+.Map-dot-list li.level-8:after{width: 42px;height: 42px;left: -21px;top: -21px;}
+.Map-dot-list li.level-9:after{width: 48px;height: 48px;left: -24px;top: -24px;}
+.Map-dot-list li.level-10:after{width: 50px;height: 50px;left: -25px;top: -25px;}
+
+
+
+.Map-dot-list .tips{position: absolute;bottom: 16px;left: 50%;margin-left: -70px;min-height: 160px;width: 140px;padding: 10px 10px 10px 18px;cursor: pointer;color: #666;font: 16px/24px 'Microsoft YaHei';background: #fff;box-shadow: 0 5px 20px rgba(0,0,0,.2);display: none;z-index: 10;text-align: left;border-radius: 5px;transition : all 0.2s linear 0s;}
+.Map-dot-list .tips:after{position: absolute;bottom: -20px;left: 50%;margin-left: -10px;content: "";overflow: hidden;border: 10px solid transparent;border-top-color: #fff;display: block;}
+.Map-dot-list .tips dt{text-align: center;font-size: 18px;color: #333;line-height: 22px;margin-bottom: 10px;}
+.Map-dot-list .tips .t-red{color: #f85f73;}
+.Map-dot-list li:hover{z-index: 10;}
+.Map-dot-list li:hover:after{background: #fa455d;}
+.Map-dot-list li:hover .tips{display: block;}
+
+.Map-dot-list-blue li:after{background: rgba(161, 188, 232, .6);border-color: #a1bce8;}
+.Map-dot-list-blue li:hover:after{background: #a3bee9;}
+
+.Map-wuhan{margin-left: -342px;width: 684px;height: 688px;background-image: url(../img/map-wuhan-only.png);}
+.Map-wuhan .huangpi{left: 329px;top: 261px;}
+.Map-wuhan .xinzhou{left: 480px;top: 297px;}
+.Map-wuhan .dongxihu{left: 206px;top: 343px;}
+.Map-wuhan .hongshan{left: 314px;top: 428px;}
+.Map-wuhan .wuhanhuagong{left: 395px;top: 346px;}
+.Map-wuhan .jianghan{left: 276px;top: 365px;}
+.Map-wuhan .qingshan{left: 382px;top: 370px;}
+.Map-wuhan .qiaokou{left: 248px;top: 369px;}
+.Map-wuhan .jiangan{left: 295px;top: 352px;}
+.Map-wuhan .caidian{left: 181px;top: 401px;}
+.Map-wuhan .hanyang{left: 263px;top: 399px;}
+.Map-wuhan .wuchang{left: 306px;top: 395px;}
+.Map-wuhan .donghu{left: 355px;top: 393px;}
+.Map-wuhan .wuhanjingjikafa{left: 212px;top: 437px;}
+.Map-wuhan .donghuxinjishukaifa{left: 403px;top: 436px;}
+.Map-wuhan .jiangxia{left: 310px;top: 527px;}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			var winResizeFn = function() {
+				document.getElementsByTagName('html')[0].style.fontSize = document.documentElement.clientHeight / 10.80 + "px";
+			};
+			winResizeFn();
+			window.onresize = winResizeFn;
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/mbase.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/login.css" />
+	</head>
+
+	<body class="header-light footer-dark">
+		<!-- header-light footer-light -->
+		<wrap class="login login-admin">
+			<header class="header-wrap">
+				<div class="header">
+					<a class="logo-1 left vertical" href="index.html"></a>
+					<div class="loginBar-1 right">
+						<div class="list-box vertical">
+							<div class="tx-box left"></div>
+							<div class="list-tit">江城工商</div>
+							<div class="list-cont">
+								<ii></ii>
+								<div class="list-items">
+									<a href="">个人中心</a>
+									<a href="">退出</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header-1-nav right">
+						<ul>
+							<li>
+								<div class="list-box">
+									<div class="list-tit">信息门户</div>
+									<div class="list-cont">
+										<ii></ii>
+										<div class="list-items">
+											<a href="">通知公告</a>
+											<a href="">政务信息</a>
+											<a href="">业务信息</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="list-box">
+									<div class="list-tit">工作交流</div>
+									<div class="list-cont">
+										<ii></ii>
+										<div class="list-items">
+											<a href="">知识云</a>
+											<a href="">视频会议</a>
+											<a href="">在线沟通</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="list-box">
+									<div class="list-tit">业务协同</div>
+									<div class="list-cont">
+										<ii></ii>
+										<div class="list-items">
+											<a href="">12315消费维权协作</a>
+											<a href="">注册登记协作</a>
+											<a href="">商标保护协作</a>
+											<a href="">公平交易执法协作</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="list-box">
+									<div class="list-tit">数据分析</div>
+									<div class="list-cont">
+										<ii></ii>
+										<div class="list-items">
+											<a href="">跨四市流动数据融合平台</a>
+											<a href="">新增主体户数对比分析</a>
+											<a href="">市场主体产业类型分析</a>
+											<a href="">市场主体活跃度分析</a>
+											<a href="">重点产业结构发展分析</a>
+											<a href="">企业年龄结构分析</a>
+											<a href="">企业及投资人族谱分析</a>
+											<a href="">四城市市场主体迁移分析</a>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="header-search-box right">
+						<div class="search-icon"></div>
+						<form class="nav_1_form vertical" style="display:none;">
+							<input type="text" value="" placeholder="" />
+							<input type="submit" value="" />
+						</form>
+					</div>
+				</div>
+			</header>
+			<div class="section vertical">
+				<div class="content-1">
+					<h2>政务云后台管理</h2>
+					<form>
+						<div><input class="w344" type="text" name="" id="" value="" placeholder="手机号" autocomplete="off" autofocus="autofocus"/></div>
+						<div><input class="w210" type="text" name="" id="" value="" placeholder="验证码" autocomplete="off" />
+							<a href="">发送验证码</a>
+						</div>
+						<div><input class="w210" type="text" name="" id="" value="" placeholder="图形验证码" autocomplete="off" />
+							<a href=""><img src="img/yzm.png"/></a>
+						</div>
+						<div><input class="w344" type="submit" value="登 录" /></div>
+					</form>
+				</div>
+			</div>
+			<div class="copyright">
+	            地址: 武汉市江汉区香港路259号 邮编: 430015 鄂ICP备10041712号 技术支持：武汉中润普达<br> Copyright 2016 © All rights reserverd by WuHan Administrator
+	            for Industry &amp; Commerce Powered by ZRPD
+	        </div>
+		</wrap>
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/mbase.js"></script>
+		<script src="js/common.js"></script>
+		<script>
+			$(function(){
+				$(".w344").bind("click",function(){
+					window.open("index.html");
+				})
+			})
+		</script>
+	</body>
+
+</html>

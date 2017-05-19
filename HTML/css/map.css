@@ -1,0 +1,14 @@
+/* create by jackLei(leiyong@infobigdata.com) 2017-05-18 */
+.Map{
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}
+.Map-wuhan{
+	width: 684px;
+	height: 688px;
+	background-image: url(../img/map-wuhan.png);
+}
+
+

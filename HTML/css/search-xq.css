@@ -1,0 +1,139 @@
+@charse "utf-8"
+/*CSS Document*/
+
+.xxxxxx {
+  width: 0;
+}
+.header-wrap .header {
+  background-color: #293f6d;
+  position: initial;
+}
+.header-dark .header .list-box .list-cont {
+  background-color: #fff;
+  border: 2px solid #ddd;
+}
+.header-dark .header .list-box .list-cont ii {
+  border: 6px solid transparent;
+  border-bottom: 8px solid #ddd;
+}
+.header-dark .header .list-box .list-cont ii:after {
+  border: 6px solid transparent;
+  border-bottom: 8px solid #FFFFFF;
+}
+.header-dark .header .list-box .list-items a {
+  color: #666666;
+}
+.header-dark .header .list-box .list-items a:hover {
+  color: #ff0033;
+}
+.search-xq .section {
+  width: 1080px;
+  height: auto;
+  margin: 0 auto;
+}
+.search-xq .search-box {
+  width: 720px;
+  margin: 60px auto;
+}
+.search-xq .search-box input[type='text'] {
+  box-sizing: border-box;
+  width: 600px;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #cc0033;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  vertical-align: middle;
+  font-size: 14px;
+}
+.search-xq .search-box input[type='submit'] {
+  margin-left: -4px;
+  width: 120px;
+  height: 50px;
+  background: #ff0033 url(../img/search.png) 30px center no-repeat;
+  border: 1px solid #cc0033;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ffffff;
+  padding-left: 60px;
+  text-align: left;
+}
+.search-xq .content-left {
+  width: 720px;
+  margin-bottom: 60px;
+}
+.search-xq .content-right {
+  width: 330px;
+}
+
+/*wpx add********************************************/
+.search-xq .search-title{
+  background-color: #eee;
+  height: 44px;
+  line-height: 44px;
+  font-size: 16px;
+  color: #666;
+  padding: 0 20px;
+}
+.search-xq .search-title .result-title{
+  display: inline-block;
+  float: left;
+}
+.search-xq .search-title .result-count{
+  display: inline-block;
+  float: right;
+}
+.lab{
+  color: #ff0033;
+  font-family: "Adobe Heiti Std";
+}
+.result-list{
+  margin-bottom: 60px;
+}
+.result-list>.result-item{
+  padding: 40px 0 20px 0;
+  border-bottom: 1px solid #eee;
+}
+.result-list>.result-item:last-child{
+  border-bottom: none;
+}
+.result-list>.result-item .title{
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+.result-list>.result-item .content{
+  font-size: 16px;
+  color: #666;
+  margin-top: 30px;
+}
+.result-list>.result-item .other{
+  font-size: 14px;
+  color: #999;
+  margin-top: 20px;
+  text-align: right;
+}
+.result-list>.result-item .other>span+span{
+  margin-left: 5px;
+}
+.search-xq .list-page{
+  margin-top: 60px;
+}
+.hot-list{
+  padding: 40px 20px;
+  font-size: 16px;
+  color: #666;
+}
+.hot-list .hot-list-item{
+  width: 100%;
+  display: inline-block;
+  line-height: 2em;
+}
+
+/*wpx end********************************************/
